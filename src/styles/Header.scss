@@ -1,0 +1,47 @@
+@import "./_variables.scss";
+@import "./mixins.scss";
+
+@mixin menu-mixin($plank-width: 36.5px) {
+    display: block;
+    background-color: white;
+    height: 1px;
+    width: $plank-width;
+}
+
+header {
+    display: flex;
+    height: 89px;
+    align-items: center;
+    justify-content: space-between;
+
+    .header-menu {
+        @include menu-mixin();
+        margin-left: 58px;
+        &:after{
+            content: '';
+            @include menu-mixin(15px);
+            margin-top:4.5px;
+        }
+    }
+
+    .logo {
+        height: 18.79px;
+        position: absolute;
+        margin: auto;
+        left: 0;
+        right: 0;
+    }
+    .header-start-cooperation{
+        @include codan-font();
+        @include flex-center();
+        color: $white-color;
+        width: 250px;
+        margin-right: 58px;
+        img{
+            margin-right: 12px;
+        }
+        p{
+            letter-spacing: 0.15em;
+        }
+    }
+}
