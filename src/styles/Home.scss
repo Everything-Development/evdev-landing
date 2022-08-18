@@ -1,0 +1,72 @@
+@import "./_variables.scss";
+@import "./mixins.scss";
+@import "./animations.scss";
+
+.main-section {
+    @include flex-center(center, row);
+    height: 100vh;
+    width: 100vw;
+    .main-section-text{
+        color: white;
+        height: 320px;
+        // overflow: hidden;
+        .main-section-title {
+            p{
+                @include gotham-font(90px);
+                color: white;
+                letter-spacing: 0.1em;
+                text-transform: uppercase;
+                line-height: 95%;
+                width: 700px;
+                text-align: left;
+                margin-top: 0px;
+                margin-bottom: 0px;
+                overflow: hidden;
+                display: flex;
+                
+            }
+            .animation-container{
+                height: 85.5px;
+                overflow: hidden;
+            }
+            
+            .evdev-text-animation{
+                display: flex;
+                justify-content: left;
+            }
+
+            .evdev-title {
+                display: block;
+                @include gotham-font(90px, "medium");
+                @include text-gradient;
+                animation: evdev-fire 1s forwards;
+                animation-delay: 1.1s;
+                transform: scale(0); 
+            }
+            .animated-text-nodelay {
+                animation: letter-appering 0.7s forwards;
+                animation-delay: 0.1s;
+                height: 0px;                 
+            }
+            .animated-text-02sdelay{
+                animation: letter-appering 0.7s forwards;
+                animation-delay: 0.2s;
+                height: 0px; 
+            }
+            .animated-text-04sdelay{
+                animation: letter-appering 0.7s forwards;
+                animation-delay: 0.4s;
+                height: 0px; 
+            }
+        }
+        p{
+            @include codan-font(18px);
+            text-align: left;
+        }
+    }
+    .main-section-visual-elem{
+        height: 400px;
+        width: 400px;
+    }
+    
+}

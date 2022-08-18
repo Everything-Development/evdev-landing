@@ -1,6 +1,27 @@
 @import url(https://db.onlinewebfonts.com/c/b76dcc4b7c1c0ff6f43d6b841f890530?family=Codan+Regular);
 @import url(https://db.onlinewebfonts.com/c/2acacb28c27ccc489f67b88c99055cb2?family=Codan+Light);
+@font-face {
+  font-family: 'Gotham Pro';
+  src: local('Gotham Pro Medium'), local('Gotham-Pro-Medium'),
+      url('./fonts/GothamPro-Medium.woff2') format('woff2'),
+      url('./fonts/GothamPro-Medium.woff') format('woff'),
+      url('./fonts/GothamPro-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Gotham Pro';
+  src: local('Gotham Pro Regular'), local('Gotham-Pro-Regular'),
+      url('./fonts/GothamPro.woff2') format('woff2'),
+      url('./fonts/GothamPro.woff') format('woff'),
+      url('./fonts/GothamPro.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
 
+*{
+  cursor: none;
+}
 
 
 body,html{
@@ -10,6 +31,8 @@ body,html{
   touch-action:manipulation;
   scroll-behavior: smooth;
   margin: 0px;
+  background: #121212;
+
 
 }
 
@@ -18,6 +41,7 @@ body,html{
   text-align: center;
   background: #121212;
   min-height: 2000px;
+  isolation: isolate;
 }
 
 .App-logo {

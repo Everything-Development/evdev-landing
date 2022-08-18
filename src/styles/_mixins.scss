@@ -2,8 +2,7 @@
 @import url(https://db.onlinewebfonts.com/c/2acacb28c27ccc489f67b88c99055cb2?family=Codan+Light);
 
 
-
-@mixin codan-font($type: "regular", $font-size: 16px){
+@mixin codan-font($font-size: 16px, $type: "regular"){
   font-size: $font-size;
   @if $type == "regular" {
     font-family: "Codan Regular";
@@ -14,8 +13,28 @@
 
   }
 
-@mixin flex-center($position: 'center'){
+@mixin gotham-font($font-size: 16px, $type: "regular"){
+  font-size: $font-size;
+  font-family: "Gotham Pro";
+  @if $type == "regular" {
+    font-weight: 400;
+  }
+  @if $type == "medium" {
+    font-weight: 500;
+  }
+} 
+
+@mixin flex-center($position: center, $flex-direction: column){
   display: flex;
   justify-content: $position;
+  flex-direction: $flex-direction;
   align-items: center;
+}
+
+@mixin text-gradient(){
+  background: linear-gradient(112.53deg, #E9C600 -8.31%, #FF5001 115.37%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
 }

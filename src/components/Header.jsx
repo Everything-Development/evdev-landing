@@ -5,7 +5,6 @@ import cooperation_icon from '../assets/cooperation_icon.svg'
 
 const Header = () => {
   const [coords, setCoords] = useState({x: 0, y: 0});
-
   const [globalCoords, setGlobalCoords] = useState({x: 0, y: 0});
   const {innerWidth, innerHeight} = window;
   useEffect(() => {
@@ -23,21 +22,17 @@ const Header = () => {
     };
   }, []);
 
-  const handleMouseMove = event => {
-    setCoords({
-      x: event.clientX - event.target.offsetLeft,
-      y: event.clientY - event.target.offsetTop,
-    });
-  };
+  const openMenu = (props) => {
+    console.log(props)
+  }
   return (
     <div>
       <header>
-        <span className='header-menu'></span>
+        <span className={`header-menu`} onClick={openMenu()}></span>
         <img src={logo} className="logo" alt="logo" style={{transform: `translateX(${globalCoords.x*0.01}px) translateY(${globalCoords.y*0.01}px) skew(${(globalCoords.x - innerWidth / 2 )*0.01}deg)`}}/>
         <div className='header-start-cooperation'>
           <img src={cooperation_icon} alt="cooperation_icon"/>
           <p>START COOPERATION</p>
-          {/* {innerWidth/2} */}
         </div>
       </header>
     </div>
