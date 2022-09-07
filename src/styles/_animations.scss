@@ -13,22 +13,31 @@
     0%    { 
       filter: blur(100px);
       transform: scale(1) translateX(350px) translateY(-150px) rotate(-45deg); 
-      // transform: matrix(1.2, 0.5, -1, 0.9, 0, 120);
-      // transform: matrix(3, 0.5, -1, 0.9, 0, 120);
-      // filter: blur(100px);
-      // filter: blur(100px) drop-shadow(50px 56px 50px rgb(255, 115, 1));
-
     }
     30% { 
-      // transform: scale(1); 
       filter: blur(50px);
-
       transform: scale(2) translateX(275px) translateY(-50px) rotate(-40deg); 
-
-      // filter: blur(0px);
     }
     100% { 
       transform: scale(1); 
-      // filter: blur(0px);
     }
   }
+
+
+  @keyframes shake {
+    0% {
+        transform: rotateZ(0deg) translateX(0) translateY(0) scale(1);
+    }
+    20% {
+        transform: rotateZ(-2deg) translateX(0) translateY(0);
+    }
+    40% {
+        transform: rotateZ(0deg) translateX(0) translateY(0);
+    }
+    60% {
+        transform: rotateZ(2deg) translateX(0) translateY(0);
+    }
+    100% {
+        transform: rotateZ(0deg) translateX(0) translateY(0);
+    }
+}

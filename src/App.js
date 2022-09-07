@@ -9,8 +9,7 @@ import {
 import Header from './components/Header';
 import Home from './pages/Home'
 import Cursor from './components/Cursor';
-
-import {useState, useEffect} from 'react'
+import {useState, useEffect} from 'react';
 
 function App() {
 

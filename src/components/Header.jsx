@@ -35,6 +35,15 @@ const Header = () => {
           <p>START COOPERATION</p>
         </div>
       </header>
+      <div className="fixed-bottom-controls">
+        <p className='contacts-title'>CONTACTS</p>
+        <div className='language-toggle'>
+          <p className="language-toggle-eng">ENG</p>
+          <p className="language-toggle-ua">UA</p>
+
+        </div>
+
+      </div>
     </div>
   )
 }

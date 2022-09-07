@@ -1,0 +1,100 @@
+@import "./_variables.scss";
+@import "./mixins.scss";
+@import './animations.scss';
+
+
+.projects-section {
+    width: 100vw; 
+    .projects-title-container{
+        width: 1160px;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        justify-content: flex-end;
+        h3{
+            width: 850px;
+            @include gotham-font(90px);
+            line-height: 95%;
+            /* or 85px */
+            text-align: right;
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+            color: #FFFFFF;
+            .evdev-gradient{
+                @include text-gradient();
+            }
+        }  
+    }
+    .project-element{
+        width: 1160px;
+        height: 100vh;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .description-part{
+            width: 460px;
+            text-align: left;
+            margin-top: -100px;
+            .project-name, .project-type{
+                border-bottom: 1px solid #464646;
+                padding-top: 30px;
+                padding-bottom: 30px;
+
+                display: flex;
+                flex-direction: column;
+                justify-content: left;
+                p{
+                    color: white;
+                    font-family: "Mulish";
+                    font-weight: 400;
+                    font-size: 11px;
+                    line-height: 130%;
+                    margin: 0px;
+                    text-align: left;
+                    width: 460px;
+
+                }
+                h4{
+                    @include gotham-font(30px);
+                    line-height: 130%;
+                    color: white;
+                    margin: 10px 0px 0px 0px;
+                    text-align: left;
+                    width: 460px;
+
+                }
+            }
+            .project-functionality{
+                border-bottom: 1px solid #464646;
+                padding-top: 30px;
+                padding-bottom: 30px;
+
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                h4{
+                    @include gotham-font(30px);
+                    line-height: 130%;
+                    color: white;
+                    margin: 0px;
+                    text-align: left;
+                }
+            }
+        }
+        .project-image{
+            height: 616px;
+            width: 802px;
+            margin-left: 100px;
+            margin-right: -200px;
+        }
+        .project-image-left{
+            height: 616px;
+            width: 802px;
+            margin-left: -100px;
+            margin-right: 160px;
+        }
+    }
+    
+}

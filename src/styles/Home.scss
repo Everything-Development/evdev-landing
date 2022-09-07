@@ -66,7 +66,43 @@
     }
     .main-section-visual-elem{
         height: 400px;
-        width: 400px;
+        width: 450px;
     }
     
+    
+}
+.discover-projects{
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    top: 70%;
+    width: 600px;
+    text-align: center;   
+    .projects-button-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 500px;
+        height: 150px;
+        color: white;
+        @include codan-font(16px, "medium");
+        img{
+            transition: 1s;
+            &:hover{
+                transform: rotate(10deg);
+            }
+        }
+        p{
+            margin-top: 60px;
+            align-items: center;
+            letter-spacing: 0.25em;
+            text-transform: uppercase;
+        }
+    }   
+}
+
+.projects-button-container:hover .pyramid-image{
+    transform: rotate(10deg);
 }

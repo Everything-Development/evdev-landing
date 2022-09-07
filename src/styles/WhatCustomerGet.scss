@@ -1,0 +1,45 @@
+@import "./_variables.scss";
+@import "./mixins.scss";
+@import './animations.scss';
+
+.customer-get-section{
+    height: 300vh;
+    display: flex;
+    justify-content: center;
+    h3{
+        @include gotham-font(70px);
+        line-height: 95%;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+        width: 600px;
+        text-align: left;
+        color: white;
+        margin: 20px 0px;
+        .gradient-txt{
+            @include text-gradient();
+        }
+    }
+    .services-list {
+        display: flex;
+        flex-direction: column;
+        width: 560px;
+        .service-element{
+            @include codan-font(20px);
+            color: white;
+            padding-top: 24px;
+            padding-bottom: 24px;
+            margin: 0px;
+            border-bottom: 1px solid #464646;
+            text-align: left;
+            p{
+                margin: 0px;
+                line-height: 160%;
+            }
+            .subtitle{
+                @include codan-font(14px);
+                margin-top: 0px;
+            }
+        }
+    }
+
+}

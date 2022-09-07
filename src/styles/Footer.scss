@@ -1,0 +1,80 @@
+@import "./_variables.scss";
+@import "./mixins.scss";
+@import './animations.scss';
+
+
+footer{
+    height: 820px;
+    width: 100vw;
+    background-color: rgba(36, 36, 36, 0.1);
+    background-image: linear-gradient(320.54deg, rgba(36, 36, 36, 0.1) 2.41%, rgba(137, 137, 137, 0.1) 99.07%);
+    background-image: -webkit-linear-gradient(320.54deg, rgba(36, 36, 36, 0.1) 2.41%, rgba(137, 137, 137, 0.1) 99.07%);
+    .footer-content{
+        width: 1160px;
+        height: 820px;
+        margin-left: auto;
+        margin-right: auto;
+        .footer-part{
+            width: 1160px;
+            height: 264px;
+            padding-top: 150px;
+            display: flex;
+            flex-direction: row;
+            h2{
+                @include gotham-font(70px);
+                line-height: 95%;
+                /* or 66px */
+                letter-spacing: 0.1em;
+                text-transform: uppercase;
+                color: white;
+                margin-top: 0px;
+            }
+            
+            .footer-half-part{
+                display: flex;
+                flex-direction: column;
+                text-align: left;
+                color: white;
+                @include gotham-font(16px, "light");
+                line-height: 110%;
+                margin-top: 0px;
+                width: 700px;
+                .footer-label{
+                    @include text-gradient();
+                    width: 50px;
+                    font-family: 'Mulish';
+                    font-size: 15px;
+                }
+                h4{
+                    @include gotham-font(30px, "light");
+                    line-height: 130%;
+                    /* identical to box height, or 39px */
+                    display: flex;
+                    align-items: flex-end;
+                    margin-top: 0px;
+                    margin-bottom: 31px;
+                }
+                .social-meadia-footer{
+                    display: flex;
+                    align-items: center;
+                    gap: 16px;
+                    margin-bottom: 26px;
+                    img{
+                        border-radius: 3px;
+                        height: 24px;
+                        width: 24px;
+
+                    }
+                }
+            }
+            .footer-half-part:nth-child(2){
+                margin-left: 100px;
+                width: 300px;
+
+            }
+        }
+        .footer-part:nth-child(2){
+            margin-top: -80px;
+        }
+    }
+}

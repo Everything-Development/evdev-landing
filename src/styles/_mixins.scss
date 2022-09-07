@@ -1,14 +1,19 @@
 @import url(https://db.onlinewebfonts.com/c/b76dcc4b7c1c0ff6f43d6b841f890530?family=Codan+Regular);
 @import url(https://db.onlinewebfonts.com/c/2acacb28c27ccc489f67b88c99055cb2?family=Codan+Light);
-
+@import url(https://db.onlinewebfonts.com/c/10f95655185b3642fd76ae8edd235be7?family=Codan+Medium);
+@import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
 
 @mixin codan-font($font-size: 16px, $type: "regular"){
   font-size: $font-size;
+  font-style: normal;
   @if $type == "regular" {
     font-family: "Codan Regular";
   }
   @if $type == "light" {
     font-family: "Codan Light";
+  }
+  @if $type == "medium" {
+    font-family: "Codan Medium";
   }
 
   }
@@ -16,6 +21,9 @@
 @mixin gotham-font($font-size: 16px, $type: "regular"){
   font-size: $font-size;
   font-family: "Gotham Pro";
+  @if $type == "light" {
+    font-weight: 300;
+  }
   @if $type == "regular" {
     font-weight: 400;
   }
@@ -37,4 +45,20 @@
   -webkit-text-fill-color: transparent;
   background-clip: text;
   text-fill-color: transparent;
+}
+
+
+
+@mixin title-text(){
+  @include gotham-font(90px);
+  color: white;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  line-height: 95%;
+  width: 700px;
+  text-align: left;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  overflow: hidden;
+  display: flex;
 }

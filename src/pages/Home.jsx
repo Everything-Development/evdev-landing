@@ -1,34 +1,40 @@
-import React, { useRef, useState } from 'react'
-import '../styles/Home.scss'
+import React, { useRef, useState, useEffect } from 'react'
+import Main from '../components/Main'
+import PickIndustry from '../components/PickIndustry'
+import WhatOthersTalk from '../components/WhatOthersTalk'
+import HereWeAreTo from '../components/HereWeAreTo';
+import Footer from '../components/Footer';
+import Clients from '../components/Clients';
+import WhatCustomerGet from '../components/WhatCustomerGet';
+import Projects from '../components/Projects'
 
 const Home = () => {
+  const [scrollY, setScrollY] = useState(0);
+
+    useEffect(() => {
+      const handleScroll = () => {
+        setScrollY(window.scrollY);
+      };
+      handleScroll();
+  
+      window.addEventListener("scroll", handleScroll);
+      return () => {
+        window.removeEventListener("scroll", handleScroll);
+      };
+    }, []);
+
   return (
-    <div className="main-section">
-      <div className='main-section-text'>
-        <div className='main-section-title'>
-          
-          <div className="animation-container">
-              <p className="animated-text-nodelay">Breathe</p>
-          </div>
-
-          <div className="animation-container">
-              <p className="animated-text-02sdelay">Apple dust</p>
-          </div>
-          <div className='evdev-text-animation'>
-            <div className="animation-container" style={{width: '320px'}}>
-                <p className="animated-text-04sdelay">with</p>
-            </div>
-            <span className='evdev-title'>
-              EVDEV
-            </span>
-          </div>
-        </div>
-        <p>and watch sculpting software that<br/>leaks productivity at the seams.</p>
-      </div>
-      <div className='main-section-visual-elem'>
-
-      </div>
-      </div>
+    <>
+      
+      <Main />
+      <PickIndustry />
+      <Clients scroll={scrollY}/>
+      <WhatOthersTalk scroll={scrollY}/>
+      <HereWeAreTo scroll={scrollY}/>
+      <Projects scroll={scrollY} />
+      <WhatCustomerGet scroll={scrollY}/>
+      <Footer />
+    </>
   )
 }
 

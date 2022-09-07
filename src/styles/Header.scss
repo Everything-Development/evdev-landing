@@ -1,5 +1,6 @@
 @import "./_variables.scss";
 @import "./mixins.scss";
+@import './animations.scss';
 
 @mixin menu-mixin($plank-width: 36.5px) {
     display: block;
@@ -17,6 +18,8 @@ header {
     height: 89px;
     align-items: center;
     justify-content: space-between;
+    backdrop-filter: blur(5px);
+    z-index: 1000;
 
     .header-menu {
         @include menu-mixin();
@@ -42,6 +45,9 @@ header {
         color: $white-color;
         width: 250px;
         margin-right: 58px;
+        &:hover{
+            animation: shake 0.7s linear infinite;
+        }
         img{
             margin-right: 12px;
         }
@@ -49,4 +55,51 @@ header {
             letter-spacing: 0.15em;
         }
     }
+}
+
+
+.fixed-bottom-controls{
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+    height: 100px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000;
+    @include codan-font(16px, 'regular');
+    .contacts-title {
+        margin-left:58px;
+        transition: 1s;
+        &:hover{
+            animation: shake 0.5s linear infinite;
+        }
+    }
+    p{
+        line-height: 140%;
+        letter-spacing: 0.15em;
+    }
+    .language-toggle{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 20px;
+        width:100px;
+        margin-right:58px;
+        p{
+            padding-left: 10px;
+            
+            padding-right: 10px;
+
+        }
+    }
+}
+
+.language-toggle-eng{
+    border-right: 1px solid white;
+}
+
+.language-toggle-ua {
+    opacity: 0.3;
 }
