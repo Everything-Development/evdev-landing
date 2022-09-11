@@ -1,0 +1,125 @@
+@import "./_variables.scss";
+@import "./mixins.scss";
+@import './animations.scss';
+
+
+.project-development-section {
+    width: 100vw;
+    height: 500vh;
+    .project-development-title{
+        h4{
+            width: 1160px;
+            @include gotham-font(90px);
+            line-height: 95%;
+            /* or 85px */
+            text-align: left;
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+            color: #FFFFFF;
+        }
+        width: 1162px;
+        margin-left: auto;
+        margin-right: auto;
+        .evdev-gradient{
+            @include text-gradient();
+        }
+
+    }
+    .project-development-stage{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 70vh;
+        .project-development-image{
+            img{
+                width: 800px;
+                height: 800px;
+            }
+        }
+        .project-stage-title{
+            width: 500px;
+            text-align: left;
+            margin-left: -100px;
+            h3{
+                @include text-gradient();
+                @include gotham-font(70px);
+                width: 500px;
+                text-align: left;
+                margin: 31px 0px;
+                line-height: 95%;
+                letter-spacing: 0.1em;
+
+            }
+            h4{
+                @include gotham-font(50px, "light");
+                line-height: 110%;
+                margin: 0px;
+                color: #FFFFFF;
+
+            }
+            p{
+                @include codan-font(18px, "light");
+                color: white;
+                line-height: 160%;
+                margin: 0px;
+                width: 400px;
+
+            }
+        }
+    }
+    .project-development-stage-left{
+        display: flex;
+        justify-content: left;
+        align-items: center;
+        height: 70vh;
+        width: 1160px;
+        margin-left: auto;
+        margin-right: auto;
+        .project-stage-title-left{
+            text-align: left;
+            // margin-left: 100px;
+            h3{
+                @include text-gradient();
+                @include gotham-font(70px);
+                width: 100%;
+                text-align: left;
+                margin: 31px 0px;
+                line-height: 95%;
+                letter-spacing: 0.1em;
+
+            }
+            h4{
+                @include gotham-font(50px, "light");
+                line-height: 110%;
+                margin: 0px;
+                color: #FFFFFF;
+
+            }   
+            p{
+                @include codan-font(18px, "light");
+                color: white;
+                line-height: 160%;
+                margin: 0px;
+                width: 400px;
+            }
+        }
+        .project-development-image-left{
+            img{
+                width: 800px;
+                height: 800px;
+                right: 0;
+                margin-top: -400px;
+                position: absolute;
+            }
+            @media(min-width: 1600px){
+                img {
+                    width: 800px;
+                    height: 800px;
+                    right: 20%;
+                    margin-top: -400px;
+                    position: absolute;
+                }
+            }
+        }
+    }
+}

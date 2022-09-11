@@ -7,6 +7,8 @@ import Footer from '../components/Footer';
 import Clients from '../components/Clients';
 import WhatCustomerGet from '../components/WhatCustomerGet';
 import Projects from '../components/Projects'
+import ProjectDevelopment from '../components/ProjectDevelopment'
+
 
 const Home = () => {
   const [scrollY, setScrollY] = useState(0);
@@ -33,6 +35,7 @@ const Home = () => {
       <HereWeAreTo scroll={scrollY}/>
       <Projects scroll={scrollY} />
       <WhatCustomerGet scroll={scrollY}/>
+      <ProjectDevelopment scroll={scrollY}/>
       <Footer />
     </>
   )
