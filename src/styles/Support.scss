@@ -1,0 +1,67 @@
+@import "./_variables.scss";
+@import "./mixins.scss";
+@import './animations.scss';
+
+
+.support-section {
+    width: 1160px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+    .support-section-title{
+        width: 400px;
+        text-align: left;
+        h3{
+            @include text-gradient();
+            @include gotham-font(70px);
+            width: 500px;
+            text-align: left;
+            margin: 31px 0px;
+            line-height: 95%;
+            letter-spacing: 0.1em;
+
+        }
+        h4{
+            @include gotham-font(50px, "light");
+            line-height: 110%;
+            margin: 0px;
+            color: #FFFFFF;
+
+        }
+        p{
+            @include codan-font(18px, "light");
+            color: white;
+            line-height: 160%;
+            margin: 0px;
+            width: 400px;
+        }
+    }
+    .support-section-inclusion{
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        color: white;
+        margin-left: 211px;
+        width: 560px;
+        h3{
+            @include gotham-font(50px, "light");
+            line-height: 110%;
+            margin-bottom: 21px;
+            margin-top: 0px; 
+        }
+        .support-section-elem{
+            height: 60px;
+            border-bottom: 1px solid #464646;
+            display: flex;
+            align-items: center;
+            p{
+                @include codan-font(18px, "light");
+                margin: 0px;
+                line-height: 160%;
+            }
+        }
+    }
+}

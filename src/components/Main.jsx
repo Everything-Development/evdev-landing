@@ -17,7 +17,7 @@ const Main = () => {
                 <p className="animated-text-02sdelay">Apple dust</p>
             </div>
             <div className='evdev-text-animation'>
-              <div className="animation-container" style={{width: '320px'}}>
+              <div className="animation-container custom-width">
                   <p className="animated-text-04sdelay">with</p>
               </div>
               <span className='evdev-title'>

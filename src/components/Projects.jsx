@@ -3,6 +3,8 @@ import "../styles/Projects.scss";
 import project_ex from '../assets/img-preview.png'
 import project_ex2 from '../assets/img-preview-2.png'
 import show_more from '../assets/show_more.svg';
+import { motion } from "framer-motion";
+
 
 let projects_list = [
     {
@@ -37,7 +39,33 @@ let projects_list = [
 const Projects = () => {
   return (
     <section className='projects-section'>
-        <div className='projects-title-container'><h3>Projects we are <txt className='evdev-gradient'>proud of</txt></h3></div>
+        <motion.div
+            initial={{ opacity: 0, scale: 1.2, x: -200}}
+            whileInView={{ opacity: 1, scale: 1, x: 0}}
+            viewport={{ once: true }}
+            className='projects-title-container'
+            transition={{
+                type: "spring",
+                duration: 2,
+                delay: 0.2,
+                
+            }}>
+                <h3>Projects we are
+                    <motion.span
+                    initial={{ opacity: 0, scale: 2, x: -200}}
+                    whileInView={{ opacity: 1, scale: 1, x: 0}}
+                    viewport={{ once: true }}
+                    className='evdev-gradient'
+                    transition={{
+                        type: "spring",
+                        duration: 2,
+                        delay: 0.2,
+                        
+                    }}>
+                        proud of
+                    </motion.span>
+                </h3>
+            </motion.div>
         {projects_list.map((project, key) =>
         <div>
             { project.id % 2 != 0 ?

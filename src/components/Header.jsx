@@ -14,6 +14,7 @@ const Header = () => {
         x: event.screenX,
         y: event.screenY,
       });
+      
     };
     window.addEventListener('mousemove', handleWindowMouseMove);
 
@@ -25,6 +26,7 @@ const Header = () => {
   const openMenu = (props) => {
     console.log(props)
   }
+  
   return (
     <div>
       <header>

@@ -9,6 +9,14 @@
     100%  { height: 85.5px; margin-top: 0px; }
   }
 
+  @keyframes letter-appering-mobile {
+    0%    { 
+      height: 0px;
+      margin-top: 50px;
+     }
+    100%  { height: 50px; margin-top: 0px; }
+  }
+
   @keyframes evdev-fire {
     0%    { 
       filter: blur(100px);
@@ -23,6 +31,19 @@
     }
   }
 
+  @keyframes evdev-fire-mobile {
+    0%    { 
+      filter: blur(100px);
+      transform: scale(1) translateX(350px) translateY(-150px) rotate(-45deg); 
+    }
+    30% { 
+      filter: blur(50px);
+      transform: scale(2) translateX(275px) translateY(-50px) rotate(-40deg); 
+    }
+    100% { 
+      transform: scale(1); 
+    }
+  }
 
   @keyframes shake {
     0% {

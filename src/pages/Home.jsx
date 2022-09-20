@@ -8,7 +8,7 @@ import Clients from '../components/Clients';
 import WhatCustomerGet from '../components/WhatCustomerGet';
 import Projects from '../components/Projects'
 import ProjectDevelopment from '../components/ProjectDevelopment'
-
+import Support from '../components/Support'
 
 const Home = () => {
   const [scrollY, setScrollY] = useState(0);
@@ -29,14 +29,15 @@ const Home = () => {
     <>
       
       <Main />
-      <PickIndustry />
+      {/* <PickIndustry />
       <Clients scroll={scrollY}/>
       <WhatOthersTalk scroll={scrollY}/>
       <HereWeAreTo scroll={scrollY}/>
       <Projects scroll={scrollY} />
       <WhatCustomerGet scroll={scrollY}/>
       <ProjectDevelopment scroll={scrollY}/>
-      <Footer />
+      <Support scroll={scrollY}/> */}
+      {/* <Footer /> */}
     </>
   )
 }

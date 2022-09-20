@@ -4,6 +4,7 @@ import spiral from '../assets/spiral.png';
 import cube from '../assets/cube-2.png';
 import pyramid from '../assets/pyramid.png';
 import octagon from '../assets/octagon-2.png';
+import { motion } from 'framer-motion';
 
 
 let project_stages_list = [
@@ -43,31 +44,81 @@ let project_stages_list = [
 const ProjectDevelopment = () => {
   return (
     <section className="project-development-section">
-        <div className='project-development-title'>
+      <motion.div
+            initial={{ opacity: 0, scale: 0.8, x: -200}}
+            whileInView={{ opacity: 1, scale: 1, x: 0}}
+            viewport={{ once: true }}
+            className='project-development-title'
+            transition={{
+                type: "spring",
+                duration: 2,
+                delay: 0.2,
+                
+            }}>
         <h4>
-          What is<br/><txt className='evdev-gradient'>the way</txt> of<br/> clients` project development?
+          What is<br/>
+          
+          <motion.span
+            initial={{ opacity: 0, scale: 2}}
+            whileInView={{ opacity: 1, scale: 1}}
+            viewport={{ once: true }}
+            className='evdev-gradient'
+            transition={{
+                type: "spring",
+                duration: 2,
+                delay: 0.5,
+                
+            }}>
+              the way
+            </motion.span>
+
+          of<br/> clients` project development?
         </h4>
-        </div>
-        {project_stages_list.map((item, key) =>
+        </motion.div>
+        { project_stages_list.map((item, key) =>
         <div>
           { (item.id % 2 == 1) ? 
             <div className='project-development-stage' key={key}>
               <div className='project-development-image'>
                   <img src={item.image}/>
+                  {/* <video width="320" height="240" autoplay muted>
+                    <source src={item.image} type="video/mp4"/>
+                  Your browser does not support the video tag.
+                  </video> */}
               </div>
-              <div className='project-stage-title'>
-                <h4>0{item.id}</h4>
+              <motion.div
+            initial={{ opacity: 0, scale: 0.8, x: 100}}
+            whileInView={{ opacity: 1, scale: 1, x: 0}}
+            viewport={{ once: true }}
+            className='project-stage-title'
+            transition={{
+                type: "spring",
+                duration: 2,
+                delay: 0.2,
+                
+            }}>
+               <h4>0{item.id}</h4>
                 <h3>{item.title}</h3>
                 <p>{item.subtitle}</p>
-              </div>
+            </motion.div>
             </div>
             :
             <div className='project-development-stage-left' key={key}>
-              <div className='project-stage-title-left'>
+              <motion.div
+            initial={{ opacity: 0, scale: 0.8, x: -100}}
+            whileInView={{ opacity: 1, scale: 1, x: 0}}
+            viewport={{ once: true }}
+            className='project-stage-title-left'
+            transition={{
+                type: "spring",
+                duration: 2,
+                delay: 0.2,
+                
+            }}>
                 <h4>0{item.id}</h4>
                 <h3>{item.title}</h3>
                 <p>{item.subtitle}</p>
-              </div>
+              </motion.div>
               <div className='project-development-image-left'>
                   <img src={item.image}/>
               </div>

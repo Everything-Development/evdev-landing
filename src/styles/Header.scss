@@ -103,3 +103,32 @@ header {
 .language-toggle-ua {
     opacity: 0.3;
 }
+
+
+@media (max-width: 500px){
+    header{
+        .header-menu{
+            margin-left: 16px;
+        }
+        .header-start-cooperation{
+            p{
+                display: none;
+            }
+            width: 16px;
+            margin-right:16px;
+
+            .language-toggle{
+                width:30px;
+                p{
+                    padding-left: 10px;
+                    
+                    padding-right: 10px;
+        
+                }
+            }
+        }
+        
+        
+    }
+    
+}
