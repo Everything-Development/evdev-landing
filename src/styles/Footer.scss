@@ -78,3 +78,86 @@ footer{
         }
     }
 }
+
+@media (max-width: 500px) {
+    footer{
+        height: 220vh;
+        width: 100vw;
+        .footer-content{
+            width: 97.5%;
+            margin-left: 0%;
+            margin-right: 0%;
+            .footer-part{
+                width: 95vw;
+                margin-left: 2.5vw;
+                margin-right: 2.5vw;
+
+                height: auto;
+                padding-top: 50px;
+                display: flex;
+                flex-direction: column;
+                h2{
+                    @include gotham-font(50px);
+                    line-height: 95%;
+                    /* or 66px */
+                    letter-spacing: 0.1em;
+                    text-transform: uppercase;
+                    color: white;
+                    margin-top: 0px;
+                    width: 95vw;
+                }
+                .position-center{
+                    @include flex-center();
+                    margin-top: 128px !important;
+                }
+                .footer-half-part{
+                    display: flex;
+                    flex-direction: column;
+                    text-align: left;
+                    color: white;
+                    @include gotham-font(16px, "light");
+                    line-height: 110%;
+                    margin-top: 100px;
+                    width: 95vw;
+                    .footer-label{
+                        @include text-gradient();
+                        width: 50px;
+                        font-family: 'Mulish';
+                        font-size: 15px;
+                    }
+                    h4{
+                        @include gotham-font(25px, "light");
+                        line-height: 130%;
+                        /* identical to box height, or 39px */
+                        display: flex;
+                        align-items: flex-end;
+                        margin-top: 0px;
+                        margin-bottom: 31px;
+                    }
+                    .social-meadia-footer{
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        flex-direction: column;
+                        margin-bottom: 26px;
+                        img{
+                            border-radius: 3px;
+                            height: 24px;
+                            width: 24px;
+    
+                        }
+                    }
+                }
+                .footer-half-part:nth-child(2){
+                    margin-left: 0px;
+
+                    width: 95vw;
+    
+                }
+            }
+            .footer-part:nth-child(2){
+                margin-top: -80px;
+            }
+        }
+    }
+}

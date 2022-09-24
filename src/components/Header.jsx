@@ -31,7 +31,8 @@ const Header = () => {
     <div>
       <header>
         <span className={`header-menu`} onClick={openMenu()}></span>
-        <img src={logo} className="logo" alt="logo" style={{transform: `translateX(${globalCoords.x*0.01}px) translateY(${globalCoords.y*0.01}px) skew(${(globalCoords.x - innerWidth / 2 )*0.01}deg)`}}/>
+        <img src={logo} className="logo mobileV" alt="logo" />
+        <img src={logo} className="logo desktopV" alt="logo" style={{transform: `translateX(${globalCoords.x*0.01}px) translateY(${globalCoords.y*0.01}px) skew(${(globalCoords.x - innerWidth / 2 )*0.01}deg)`}}/>
         <div className='header-start-cooperation'>
           <img src={cooperation_icon} alt="cooperation_icon"/>
           <p>START COOPERATION</p>

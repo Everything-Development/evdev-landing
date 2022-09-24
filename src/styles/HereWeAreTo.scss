@@ -62,3 +62,69 @@
         }
     }
 }
+
+@media(max-width:500px){
+    .hereweare-section{
+        margin-top: 200px;
+        height: 100vh;
+        width: 95vw;
+        margin-left:2.5vw;
+        display: flex;
+        flex-direction: column;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: left;
+        .small-title{
+            text-transform: uppercase;
+            font-family: "Mulish";
+            font-size: 15px;
+            @include text-gradient;
+            width: 150px;
+        }
+        h2{
+            margin-top: 0px;
+            width: 95vw;
+            height: auto;
+            line-height: 95%;
+            /* or 66px */
+            display: flex;
+            align-items: flex-end;
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+    
+            /* White */
+            color: #FFFFFF;
+    
+            @include gotham-font(30px);
+        }
+        .hereweare-element{
+            margin-top: -1px;
+            border-width: 1px 0px;
+            border-style: solid;
+            border-color: #464646;
+            width: 95vw;
+            height: 103px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            gap: 10px;
+            p{
+                @include gotham-font(20px, 'regular');
+                color: white;
+                line-height: 130%;
+                margin-left:10px;
+                width: 75%;
+    
+            }
+            p:nth-child(2){
+                @include text-gradient();
+                // margin: 0px;
+                margin-right:10px;
+                width: 25%;
+                text-align: RIGHT;
+    
+            }
+        }
+    }
+}

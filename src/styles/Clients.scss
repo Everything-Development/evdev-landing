@@ -6,6 +6,7 @@
 .client-section{
     height: 200vh;
     width: 100vw;
+    margin-top: 200px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -34,6 +35,7 @@
                 transform: rotate(15deg);
             }
         }
+
     }
     .logos-section:nth-child(2){
         margin-top: 100px;
@@ -43,5 +45,60 @@
     }
     .logos-section:nth-child(5){
         margin-top: 100px;
+    }
+    .top50{
+        margin-top:50px;
+    }
+    .top100{
+        margin-top:100px;
+    }
+}
+
+@media (max-width: 500px){
+    .client-section{
+        height: 150vh;
+        width: 97vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .clients-section-title{
+            margin-top: 100px;
+            @include gotham-font(45px);
+            text-align: center;
+            width: 95vw;
+            line-height: 95%;
+            /* or 85px */
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+    
+            /* White */
+            color: #FFFFFF;
+        }
+        .logos-section{
+            // display: flex;
+            transform: rotate(-15deg);
+            width: 100vw;
+            
+    
+            .logos-section-elem{
+                width: 100px;
+                img {
+                    transform: rotate(15deg);
+                }
+            }
+    
+        }
+        .logos-section:nth-child(2n){
+            margin-top: 100px;
+        }
+        .logos-section:nth-child(4n){
+            margin-top: 50px;
+        }
+        .logos-section:nth-child(5n){
+            margin-top: 100px;
+        }
+        .top50{
+            margin-top:50px;
+        }
     }
 }

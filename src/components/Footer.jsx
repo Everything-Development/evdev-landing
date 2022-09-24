@@ -5,6 +5,7 @@ import facebook_icon from '../assets/facebook_icon.svg'
 import instagram_icon from '../assets/instagram_icon.svg'
 import linkedin_icon from '../assets/linkedin_icon.svg'
 
+
 const Footer = () => {
   return (
     <footer>
@@ -13,7 +14,7 @@ const Footer = () => {
                 <div className='footer-half-part'>
                     <h2>Let us make you the lit dev business calling card</h2>
                 </div>
-                <div className='footer-half-part'>
+                <div className='footer-half-part desktopV'>
                     <p>BLOG</p>
                     <p>PROJECTS</p>
                     <p>CLIENTS</p>
@@ -40,6 +41,12 @@ const Footer = () => {
                         <img src={linkedin_icon}/>
                         <p>evdev</p>
                     </div>
+                </div>
+                <div className='footer-half-part mobileV position-center'>
+                    <p>BLOG</p>
+                    <p>PROJECTS</p>
+                    <p>CLIENTS</p>
+                    <p>REVIEWS</p>
                 </div>
             </div>
         </div>

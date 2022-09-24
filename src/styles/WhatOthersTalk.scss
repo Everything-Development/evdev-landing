@@ -84,4 +84,92 @@
 }
 
 
+@media (max-width: 500px) {
+    .what-other-talk-section{
+        height: 220vh;
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        margin-left: auto;
+        margin-right: auto;
+        .title-text{
+            @include title-text(45px);
+            width: 95vw;
+            margin-left:5vw;
+        }
+        .title-text-gradient{
+            @include title-text();
+            // @include text-gradient();
+            width: 80vw;
+            margin-left: 5vw;
+        }
+        .sticky-content{
+            position: sticky;
+            position: -webkit-sticky;
+            top: 120px;
+        }
+        .reviews-items{
+            margin-top: 500px;
+            z-index: 100;
+            width: 100vw;
+            display: flex;
+            justify-content: center;
+            flex-direction: row;
+            flex-wrap: wrap;
+            align-items: flex-start;
+            // float: right;
+            margin-right: 0px;
+            margin-left: auto;
+            backdrop-filter: blur(5px);
+            // gap: 40px;
+            .review-item{
+                width: 40vw;
+                height: 300px;
+                text-align: left;
+                img {
+                    width: 40vw;
+                    height: 216px;
+                    object-fit: cover;
+                }
+                .review-spec{
+                    font-family: 'Mulish';
+                    font-size: 11px;
+                    @include text-gradient();
+                    text-transform: uppercase;
+                    margin-left: 10px;
+                }
+                .review-name{
+                    margin-top:0px;
+                    margin-left: 10px;
+    
+                    margin-bottom: 25px;
+                    color: white;
+                    @include gotham-font(30px);
+                }
+                hr{
+                    // border: none;
+                    border-bottom: 1px solid #464646;
+                    border-left: none;
+                    border-top: none;
+                    border-right: none;
+    
+                    color:#464646;
+                    // background-color: #464646;
+                }
+                .review-social-media{
+                    p{
+                    margin-left: 10px;
+    
+                        color: white;
+                        @include codan-font(14px, "regular");
+                    }
+                }
+            }
+            .review-item:nth-child(2n){
+                margin-top: 100px;
+            }
+        }
+    }
+}
+
 

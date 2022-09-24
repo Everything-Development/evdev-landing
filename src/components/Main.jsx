@@ -1,7 +1,7 @@
 import React, { useRef, useState } from 'react'
 import '../styles/Home.scss'
 import pyramid from '../assets/pyramid.svg'
-
+import long_rect from '../assets/long_rect.mp4'
 const Main = () => {
   return (
     <div>
@@ -28,7 +28,10 @@ const Main = () => {
           <p>and watch sculpting software that<br/>leaks productivity at the seams.</p>
         </div>
         <div className='main-section-visual-elem'>
-
+        <video width="600" height="600" loop="true" autoplay="true" muted>
+          <source src={long_rect} type="video/mp4"/>
+        Your browser does not support the video tag.
+        </video>
         </div>
       </div>
       <div className='discover-projects'>

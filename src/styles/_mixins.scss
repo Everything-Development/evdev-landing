@@ -49,8 +49,8 @@
 
 
 
-@mixin title-text(){
-  @include gotham-font(90px);
+@mixin title-text($fontsize: 90px){
+  @include gotham-font($fontsize);
   color: white;
   letter-spacing: 0.1em;
   text-transform: uppercase;

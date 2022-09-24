@@ -3,14 +3,26 @@ import '../styles/WhatOthersTalk.scss';
 import review_example from '../assets/review.svg'
 import { useEffect } from 'react';
 
+function getWindowDimensions() {
+    const { innerWidth: width, innerHeight: height } = window;
+    return {
+      width,
+      height
+    };
+  }
+
 const WhatOthersTalk = ({scroll}) => {
+    const [windowDimensions, setWindowDimensions] = useState(getWindowDimensions());
     const [fontSizeTitle, setFontSizeTitle] = useState(400)
     useEffect(() => {
-        console.log(fontSizeTitle)
-        if (fontSizeTitle >= 90){
-            setFontSizeTitle(290 - scroll *  0.05)
-        } else if (290 - scroll *  0.05 >= 90){
-            setFontSizeTitle(290 - scroll *  0.05)
+        if (windowDimensions.width >= 500) {
+            if (fontSizeTitle >= 90 || (290 - scroll *  0.05 >= 90)){
+                setFontSizeTitle(290 - scroll *  0.05)
+            }
+        } else {
+            if (fontSizeTitle >= 45 || (170 - scroll *  0.05 >= 45)){
+                setFontSizeTitle(170 - scroll *  0.05)
+            }
         }
     }, [scroll])
   return (

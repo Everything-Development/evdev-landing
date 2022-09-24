@@ -73,7 +73,7 @@ const HereWeAreTo = () => {
                     }}
                     >
                         <p>{elem.title}</p>
-                        <p>{elem.id}</p>
+                        <p>0{elem.id}</p>
                     </motion.div>
             )}
 

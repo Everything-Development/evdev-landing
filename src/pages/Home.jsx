@@ -29,15 +29,15 @@ const Home = () => {
     <>
       
       <Main />
-      {/* <PickIndustry />
+      {/* <PickIndustry /> */}
       <Clients scroll={scrollY}/>
       <WhatOthersTalk scroll={scrollY}/>
       <HereWeAreTo scroll={scrollY}/>
-      <Projects scroll={scrollY} />
+      {/* <Projects scroll={scrollY} /> */}
       <WhatCustomerGet scroll={scrollY}/>
-      <ProjectDevelopment scroll={scrollY}/>
-      <Support scroll={scrollY}/> */}
-      {/* <Footer /> */}
+      {/* <ProjectDevelopment scroll={scrollY}/> */}
+      {/* <Support scroll={scrollY}/> */}
+      <Footer />
     </>
   )
 }
