@@ -5,7 +5,10 @@
 
 .project-development-section {
     width: 100vw;
-    height: 400vh;
+    height: 440vh;
+    overflow-x: hidden;
+    position: relative;
+
     .project-development-title{
         h4{
             width: 1160px;
@@ -31,15 +34,18 @@
         align-items: center;
         height: 70vh;
         .project-development-image{
-            img{
-                width: 800px;
-                height: 800px;
+            .visual-elem-video{
+                height: 600px;
+                width: 600px;
+                margin-right: 100px;
             }
         }
         .project-stage-title{
             width: 500px;
             text-align: left;
             margin-left: -100px;
+            z-index: 1100;
+
             h3{
                 @include text-gradient();
                 @include gotham-font(70px);
@@ -48,6 +54,8 @@
                 margin: 31px 0px;
                 line-height: 95%;
                 letter-spacing: 0.1em;
+                
+                z-index: 1100;
 
             }
             h4{
@@ -86,12 +94,16 @@
                 margin: 31px 0px;
                 line-height: 95%;
                 letter-spacing: 0.1em;
+                z-index: 1100;
+
 
             }
             h4{
                 @include gotham-font(50px, "light");
                 line-height: 110%;
                 margin: 0px;
+                z-index: 1100;
+
                 color: #FFFFFF;
 
             }   
@@ -101,14 +113,19 @@
                 line-height: 160%;
                 margin: 0px;
                 width: 400px;
+                z-index: 1100;
+
             }
         }
         .project-development-image-left{
-            img{
-                width: 800px;
-                height: 800px;
+            position: absolute;
+            right: 0;
+
+            .visual-elem-video-left{
+                width: 600px;
+                height: 600px;
                 right: 0;
-                margin-top: -400px;
+                margin-top: -300px;
                 position: absolute;
             }
             @media(min-width: 1600px){
@@ -118,6 +135,157 @@
                     right: 20%;
                     margin-top: -400px;
                     position: absolute;
+                }
+            }
+        }
+    }
+}
+
+
+@media (max-width: 500px){
+    .project-development-section {
+        width: 100vw;
+        height: 440vh;
+        overflow-x: hidden;
+        .project-development-title{
+            h4{
+                width: 95vw;
+                @include gotham-font(45px);
+                line-height: 95%;
+                /* or 85px */
+                text-align: left;
+                letter-spacing: 0.1em;
+                text-transform: uppercase;
+                color: #FFFFFF;
+            }
+            width: 95vw;
+            margin-left: auto;
+            margin-right: auto;
+            .evdev-gradient{
+                @include text-gradient();
+            }
+    
+        }
+        .project-development-stage{
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+            height: 80vh;
+            width: 95vw;
+            .project-development-image{
+                .visual-elem-video{
+                    height: 350px;
+                    width: 350px;
+                    margin-right: 0px;
+                }
+            }
+            .project-stage-title{
+                width: 260px;
+                text-align: left;
+                margin-left: 100px;
+                z-index: 1000;
+                
+                h3{
+                    @include text-gradient();
+                    @include gotham-font(45px);
+                    width: 260px;
+
+                    text-align: left;
+                    margin: 31px 0px;
+                    line-height: 95%;
+                    letter-spacing: 0.1em;
+                    z-index: 1100;
+
+    
+                }
+                h4{
+                    @include gotham-font(30px, "light");
+                    line-height: 110%;
+                    margin: 0px;
+                    color: #FFFFFF;
+                    z-index: 1100;
+
+    
+                }
+                p{
+                    @include codan-font(16px, "light");
+                    color: white;
+                    line-height: 160%;
+                    margin: 0px;
+                    width: 260px;
+                    z-index: 1100;
+
+    
+                }
+            }
+        }
+        .project-development-stage-left{
+            display: flex;
+            justify-content: left;
+            align-items: center;
+            height: 40vh;
+            margin-top: 30vh;
+            width: 95vw;
+            margin-left: auto;
+            margin-right: auto;
+            .project-stage-title-left{
+                text-align: left;
+                margin-left: 10px;
+                z-index: 1000;
+                
+                h3{
+                    @include text-gradient();
+                    @include gotham-font(45px);
+                    width: 70vw;
+                    text-align: left;
+                    margin: 31px 0px;
+                    line-height: 95%;
+                    letter-spacing: 0.1em;
+                    word-wrap: break-word;
+                    overflow: hidden; 
+                    z-index: 1100;
+
+    
+                }
+                h4{
+                    @include gotham-font(30px, "light");
+                    line-height: 110%;
+                    margin: 0px;
+                    color: #FFFFFF;
+                    z-index: 1100;
+
+    
+                }   
+                p{
+                    @include codan-font(16px, "light");
+                    color: white;
+                    line-height: 160%;
+                    margin: 0px;
+                    width: 400px;
+                    z-index: 1100;
+
+                }
+            }
+            .project-development-image-left{
+                position: absolute;
+                right: 0;
+    
+                .visual-elem-video-left{
+                    height: 350px;
+                    width: 350px;
+                    right: 0;
+                    margin-top: -400px;
+                    position: absolute;
+                }
+                @media(min-width: 1600px){
+                    img {
+                        width: 800px;
+                        height: 800px;
+                        right: 20%;
+                        margin-top: -400px;
+                        position: absolute;
+                    }
                 }
             }
         }

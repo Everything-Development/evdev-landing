@@ -18,9 +18,25 @@ let support_items = [
 
 ]
 
-const Support = () => {
+const Support = (props) => {
   return (
     <section className='support-section'>
+        <motion.div
+              initial={{ opacity: 0, scale: 3, x: 400}}
+              whileInView={{ opacity: 1, scale: 1, x: 0}}
+              viewport={{ once: true }}
+              className='main-section-visual-elem'
+              transition={{
+                  type: "spring",
+                  duration: 2,
+                  delay: 0.2,
+                  
+              }}>
+          <video className='visual-elem-video' loop="true" autoplay="true" muted>
+            <source src={props.long_rect} type="video/mp4"/>
+          Your browser does not support the video tag.
+          </video>
+          </motion.div>
         <motion.div
             initial={{ opacity: 0, scale: 1, x: -200}}
             whileInView={{ opacity: 1, scale: 1, x: 0}}

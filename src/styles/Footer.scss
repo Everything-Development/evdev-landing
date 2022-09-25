@@ -9,11 +9,15 @@ footer{
     background-color: rgba(36, 36, 36, 0.1);
     background-image: linear-gradient(320.54deg, rgba(36, 36, 36, 0.1) 2.41%, rgba(137, 137, 137, 0.1) 99.07%);
     background-image: -webkit-linear-gradient(320.54deg, rgba(36, 36, 36, 0.1) 2.41%, rgba(137, 137, 137, 0.1) 99.07%);
+    z-index: 1002;
+   
     .footer-content{
         width: 1160px;
         height: 820px;
         margin-left: auto;
         margin-right: auto;
+        z-index: 1002;
+
         .footer-part{
             width: 1160px;
             height: 264px;
@@ -83,6 +87,7 @@ footer{
     footer{
         height: 220vh;
         width: 100vw;
+        z-index: 1000;
         .footer-content{
             width: 97.5%;
             margin-left: 0%;

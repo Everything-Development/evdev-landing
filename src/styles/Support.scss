@@ -65,3 +65,82 @@
         }
     }
 }
+
+
+@media (max-width: 500px){
+    .support-section {
+        width: 95vw;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        align-items: center;
+        height: 115vh;
+        overflow-x: hidden;
+        margin-bottom: 100px;
+        .main-section-visual-elem{
+            height: 380px;
+            width: 380px;
+            .visual-elem-video{
+                height: 380px;
+                width: 380px;
+            }
+        }
+        .support-section-title{
+            width: 95vw;
+            text-align: center;
+            h3{
+                @include text-gradient();
+                @include gotham-font(45px);
+                width: 95vw;
+                text-align: center;
+                margin: 15px 0px;
+                line-height: 95%;
+                letter-spacing: 0.1em;
+    
+            }
+            h4{
+                @include gotham-font(30px, "light");
+                line-height: 110%;
+                margin: 0px;
+                color: #FFFFFF;
+    
+            }
+            p{
+                @include codan-font(16px, "light");
+                color: white;
+                line-height: 100%;
+                margin: 0px;
+                width: 95vw;
+            }
+        }
+        .support-section-inclusion{
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            color: white;
+            margin-left: 2.5vw;
+            width: 95vw;
+            h3{
+                @include gotham-font(35px, "light");
+                line-height: 110%;
+                margin-bottom: 21px;
+                margin-top: 0px; 
+            }
+            .support-section-elem{
+                height: 60px;
+                border-bottom: 1px solid #464646;
+                display: flex;
+                align-items: center;
+                p{
+                    @include codan-font(18px, "light");
+                    margin-left: 12.5vw;
+                    margin-right: 12.5vw;
+                    line-height: 160%;
+                    width: 70vw;
+                }
+            }
+        }
+    }
+}

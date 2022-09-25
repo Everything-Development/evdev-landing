@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useState, useEffect} from 'react'
 import "../styles/Projects.scss";
 import project_ex from '../assets/img-preview.png'
 import project_ex2 from '../assets/img-preview-2.png'
@@ -35,8 +35,17 @@ let projects_list = [
     }
 ]
 
+function getWindowDimensions() {
+    const { innerWidth: width, innerHeight: height } = window;
+    return {
+      width,
+      height
+    };
+  }
 
 const Projects = () => {
+    const [windowDimensions, setWindowDimensions] = useState(getWindowDimensions());
+
   return (
     <section className='projects-section'>
         <motion.div
@@ -50,7 +59,7 @@ const Projects = () => {
                 delay: 0.2,
                 
             }}>
-                <h3>Projects we are
+                <h3>Projects we are { windowDimensions < 500 && <br/>}
                     <motion.span
                     initial={{ opacity: 0, scale: 2, x: -200}}
                     whileInView={{ opacity: 1, scale: 1, x: 0}}
@@ -68,7 +77,7 @@ const Projects = () => {
             </motion.div>
         {projects_list.map((project, key) =>
         <div>
-            { project.id % 2 != 0 ?
+            { (project.id % 2 != 0 && windowDimensions.width > 500) ?
                 <div className='project-element' key={key}>
                     <div className='description-part'>
                         <div className='project-name'>
@@ -88,7 +97,11 @@ const Projects = () => {
                 </div>
             :
             <div className='project-element' key={key}>
-                <img className='project-image-left'  src={project.image}/>
+                    { (project.id % 2 == 0 && windowDimensions.width < 500) ?
+                        <img className='project-image'  src={project.image}/>
+                        :
+                        <img className='project-image-left'  src={project.image}/>
+                    }
                 <div className='description-part'>
                     <div className='project-name'>
                         <p>PROJECT NAME</p>
