@@ -1,5 +1,21 @@
-@import url(https://db.onlinewebfonts.com/c/b76dcc4b7c1c0ff6f43d6b841f890530?family=Codan+Regular);
-@import url(https://db.onlinewebfonts.com/c/2acacb28c27ccc489f67b88c99055cb2?family=Codan+Light);
+@font-face {font-family: "Codan Regular";
+  src: local('Codan Regular'), local('Codan Regular'),
+      url('./fonts/CodanRegularRegular/CodanRegularRegular.ttf') format('truetype'),
+      url('./fonts/CodanRegularRegular/CodanRegularRegular.woff2') format('woff2'),
+      url('./fonts/CodanRegularRegular/CodanRegularRegular.woff') format('woff');
+}
+@font-face {font-family: "Codan Medium";
+  src: local('Codan Medium'), local('Codan Medium'),
+      url('./fonts/CodanMediumRegular/CodanMediumRegular.ttf') format('truetype'),
+      url('./fonts/CodanMediumRegular/CodanMediumRegular.woff2') format('woff2'),
+      url('./fonts/CodanMediumRegular/CodanMediumRegular.woff') format('woff');
+}
+@font-face {font-family: "Codan Light";
+  src: local('Codan Light'), local('Codan Light'),
+      url('./fonts/CodanLightRegular/CodanLightRegular.ttf') format('truetype'),
+      url('./fonts/CodanLightRegular/CodanLightRegular.woff2') format('woff2'),
+      url('./fonts/CodanLightRegular/CodanLightRegular.woff') format('woff');
+}
 @font-face {
   font-family: 'Gotham Pro';
   src: local('Gotham Pro Medium'), local('Gotham-Pro-Medium'),
@@ -9,6 +25,7 @@
   font-weight: 500;
   font-style: normal;
 }
+
 @font-face {
   font-family: 'Gotham Pro';
   src: local('Gotham Pro Regular'), local('Gotham-Pro-Regular'),
@@ -37,17 +54,13 @@ body,html{
   touch-action:manipulation;
   scroll-behavior: smooth;
   margin: 0px;
-  // overflow-x: hidden;
-  background: #121212;
-  // overflow-x: hidden;
-
-
+  background: black;
 }
 
 
 .App {
   text-align: center;
-  background: #121212;
+  background: black;
   min-height: 2000px;
   isolation: isolate;
 }
@@ -97,11 +110,10 @@ body,html{
 }
 
 @media(max-width:500px) {
-.desktopV {
-  display: none !important;
-}
-.mobileV {
-  display: block;
-}
-
+  .desktopV {
+    display: none !important;
+  }
+  .mobileV {
+    display: block;
+  }
 }

@@ -1,0 +1,113 @@
+@import "./variables.scss";
+@import "./mixins.scss";
+@import './animations.scss';
+
+@mixin menu-mixin($plank-width: 36.5px) {
+    display: block;
+    background-color: white;
+    height: 1px;
+    width: $plank-width;
+}
+
+.menu-contact{
+    position: fixed;
+    height: 100vw;
+    background: linear-gradient(343.85deg, rgba(36, 36, 36, 0.6) 0%, rgba(62, 62, 62, 0.6) 93.23%);
+    backdrop-filter: blur(30px);
+    transition: 0.3s;
+    width: 0px;
+    right: 0px;
+    z-index: 10000;
+    opacity: 0;
+    .close-contact-cross {
+        transition: 0.5s;
+        position: absolute;
+        @include menu-mixin();
+        transform: rotate(45deg);
+        margin-top: 38px;
+        &:after{
+            content: '';
+            @include menu-mixin();
+            // margin-top:4.5px;
+            transform: rotate(90deg);
+            transition: 0.3s;
+
+        }
+    }
+    .menu-contact-form{
+        margin-left: 58px;
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+        margin-top: 130px;
+        h4{
+            @include gotham-font(35px, "light");
+            text-align:left;
+            color: white;
+            margin: 0px;
+        }
+        p{
+            width: 240px;
+            color: white;
+            text-align: left;
+            @include gotham-font(14px, "regular");
+            line-height: 140%;
+            margin-left: 3px;
+        }
+        .one-line-input{
+            background-color: transparent;
+            border-left: none;
+            border-right: none;
+            border-top: none;
+            border-bottom: 1px solid white;
+            height: 40px;
+            margin-top: 20px;
+            width: 343px;
+            padding-left: 10px; 
+            outline: none;
+            color: white;
+            @include gotham-font(14px)
+        }
+        .many-lines-input{
+            background: rgba(203, 203, 203, 0.1);
+            border-left: none;
+            border-right: none;
+            border-top: none;
+            border-bottom: 1px solid white;
+            height: 115px;
+            margin-top: 20px;
+            width: 343px;
+            padding-left: 10px; 
+            padding-top: 10px;
+            letter-spacing: 0.05em;
+            line-height: 140%;
+            outline: none;
+            color: white;
+            @include gotham-font(14px) 
+        }
+        .contact-button-send{
+            background: transparent;
+            border-left: none;
+            border-right: none;
+            border-top: 1px solid white;
+            border-bottom: none;
+            height: 52px;
+            margin-top: 100px;
+            letter-spacing: 0.25em;
+            width: 353px;
+            padding-top: 10px;
+            letter-spacing: 0.05em;
+            line-height: 140%;
+            outline: none;
+            color: white;
+            @include gotham-font(16px, "medium") 
+        }
+    }
+}
+
+.menu-contact-opened {
+    width: 466px !important;
+    transition: 0.5s;
+    opacity: 1;
+
+}

@@ -25,7 +25,7 @@ let services = [
     }
 ]
 
-const WhatCustomerGet = () => {
+const WhatCustomerGet = (props) => {
   return (
     <section className='customer-get-section'>
         <motion.div
@@ -41,7 +41,20 @@ const WhatCustomerGet = () => {
             }}
             >
                 <h3>What <br/>does the customer get <txt className='gradient-txt'>for</txt> <txt className='gradient-txt'>free</txt> when he orders from us?</h3>
+                <motion.img 
+            src={props.evdev_light} 
+            className='customer-evdev-light'
+            initial={{ opacity: 0, scale: 2, x: 400, width: 0}}
+            whileInView={{ opacity: 1, scale: 1, x: -50, width: 550}}
+            viewport={{ once: true }}
+            transition={{
+                type: "spring",
+                duration: 1.5,
+                delay: 1,
+                }}
+            />
             </motion.div>
+            
         <div className='services-list'>
             {services.map((item, key) => 
             <motion.div

@@ -1,0 +1,1613 @@
+
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Js   -->
+    <script src="../static/assets/js/main.js"></script>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<!--    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">-->
+
+    <!--  Stylesheets   -->
+    <link rel="stylesheet" href="../static/assets/css/style.css">
+
+     <!--SplideCss-->
+    <link rel="stylesheet" href="../static/assets/css/splide-default.min.css">
+
+    <title> </title>
+  </head>
+  <body>
+  <nav class="navbar navbar-expand-lg navbar-light navbar-custom-light fixed-top d-none d-lg-flex d-xl-flex " >
+  <a class="navbar-brand pl-5" href="../index.html">
+      <svg width="45" height="56" viewBox="0 0 45 56" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_401_3936)">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M0.76986 7.48944C0.0854492 7.48944 0.0854492 7.48962 0.0854493 7.48985L0.0854525 7.49286L0.0854721 7.50102C0.0854938 7.50802 0.0855364 7.51816 0.0856192 7.53137C0.0857849 7.55779 0.0861119 7.59651 0.0867575 7.64713C0.0880486 7.74837 0.0906139 7.89719 0.0957106 8.09026C0.105904 8.47638 0.126225 9.03961 0.166742 9.75333C0.247764 11.1805 0.409617 13.2108 0.733054 15.6309C1.37935 20.4666 2.67354 26.8799 5.27008 33.153C8.09152 39.9694 12.2702 45.5655 15.7337 49.4518C17.4671 51.3967 19.0255 52.9181 20.1525 53.9548C20.7161 54.4732 21.1721 54.8708 21.4886 55.1398C21.6468 55.2743 21.7702 55.3766 21.8547 55.4459C21.897 55.4806 21.9295 55.507 21.9518 55.525L21.9639 55.5347C21.9694 55.5391 21.974 55.5428 21.9776 55.5457L21.9846 55.5513L21.9867 55.5529L21.9873 55.5534C21.9875 55.5536 21.9877 55.5538 22.4143 55.0214L21.9877 55.5538L22.3882 55.8714L22.8075 55.5787L22.4143 55.0214C22.8075 55.5787 22.8077 55.5785 22.808 55.5783L22.8087 55.5778L22.8109 55.5763L22.8178 55.5715L22.8263 55.5654C22.8308 55.5622 22.836 55.5585 22.8421 55.5542C22.8629 55.5393 22.8928 55.5177 22.9316 55.4893C23.0091 55.4325 23.1217 55.3485 23.2663 55.237C23.5555 55.014 23.9728 54.6807 24.4936 54.2337C25.5351 53.3398 26.9909 51.9909 28.6635 50.1602C32.0085 46.4986 36.2222 40.9077 39.721 33.1731C41.906 28.3427 43.178 21.9119 43.9059 16.7322C44.2711 14.1338 44.5014 11.8338 44.6405 10.1831C44.7101 9.35755 44.7569 8.69385 44.7863 8.23579C44.8011 8.00674 44.8114 7.82907 44.8182 7.70826C44.8215 7.64785 44.824 7.60164 44.8256 7.57033L44.8274 7.53462L44.8278 7.5253L44.828 7.5228L44.828 7.5221C44.828 7.5219 44.828 7.52176 44.1444 7.48944L44.828 7.52176L44.8468 7.12942L44.5147 6.91688L44.1444 7.48944C44.5147 6.91688 44.5145 6.91676 44.5143 6.91662L44.5117 6.91495L44.5051 6.91075C44.4995 6.9072 44.4915 6.90215 44.4812 6.89566C44.4605 6.88268 44.4304 6.86392 44.3912 6.83977C44.3128 6.79147 44.1977 6.72158 44.0478 6.63321C43.7483 6.45647 43.3097 6.20567 42.7477 5.90554C41.6242 5.30545 40.0054 4.50711 38.0161 3.70908C34.0432 2.11528 28.5632 0.510743 22.5854 0.510742C16.6085 0.510742 11.0652 2.11492 7.03004 3.70766C5.00939 4.50525 3.35909 5.30309 2.212 5.90269C1.63828 6.20258 1.18993 6.45314 0.883545 6.62964C0.730338 6.7179 0.612583 6.78767 0.532353 6.83585C0.492236 6.85995 0.461496 6.87865 0.440393 6.89157C0.429841 6.89804 0.421697 6.90305 0.415995 6.90658L0.409275 6.91074L0.406653 6.91237C0.406428 6.91251 0.406241 6.91263 0.76986 7.48944ZM1.45968 7.87165C1.46086 7.9269 1.4623 7.9879 1.46406 8.05451C1.47392 8.42794 1.4937 8.97746 1.53339 9.67655C1.61277 11.075 1.77174 13.0705 2.08994 15.4514C2.72691 20.2175 3.99926 26.5064 6.5358 32.6345C9.28023 39.2649 13.3573 44.7326 16.758 48.5484C18.4567 50.4546 19.9826 51.9438 21.0818 52.955C21.6313 53.4605 22.0739 53.8462 22.3777 54.1045C22.3979 54.1216 22.4174 54.1381 22.4363 54.1541C22.7073 53.9449 23.1029 53.6288 23.5994 53.2027C24.6031 52.3413 26.0186 51.0306 27.6505 49.2443C30.9143 45.6718 35.0418 40.1989 38.4727 32.6143C40.5744 27.9683 41.8261 21.697 42.5503 16.5437C42.9112 13.9755 43.139 11.7012 43.2765 10.0694C43.3452 9.25362 43.3914 8.59892 43.4203 8.14891C43.4273 8.03927 43.4334 7.94178 43.4384 7.85709C43.4105 7.84046 43.3809 7.8229 43.3497 7.80445C43.0654 7.63678 42.6438 7.39556 42.1003 7.10527C41.0129 6.5245 39.4395 5.74838 37.5041 4.97196C33.6277 3.41683 28.3282 1.87244 22.5854 1.87244C16.8419 1.87244 11.4774 3.41719 7.53487 4.97337C5.56668 5.75025 3.96069 6.52687 2.84869 7.10812C2.29287 7.39865 1.86097 7.64011 1.5695 7.80802C1.53034 7.83058 1.49372 7.85181 1.45968 7.87165ZM0.76986 7.48944L0.406241 6.91263L0.0854492 7.11276V7.48944H0.76986Z" fill="#231F20"/>
+<path d="M7.27155 31.9575C2.39526 18 3.07977 10.8511 3.07977 10.8511C3.07977 10.8511 9.15368 13.8298 15.7411 23.2766C18.979 27.9199 22.4997 36.1277 22.4997 36.1277C22.4997 36.1277 25.7954 27.8606 29.0871 23.2766C36.0542 13.5745 41.8345 10.8936 41.8345 10.8936C41.8345 10.8936 42.2292 19.8724 37.5567 31.9575C34.1347 40.8085 27.0339 48.7234 27.0339 48.7234L28.1461 39.8724C28.1461 39.8724 31.2732 35.2086 32.7659 31.9575C34.2627 28.6973 35.7602 23.2766 35.7602 23.2766C35.7602 23.2766 31.9961 25.4468 29.0871 30.9362C27.3134 34.2834 26.531 36.2845 25.3229 39.8724C23.7011 44.6888 22.4141 52.5532 22.4141 52.5532C22.4141 52.5532 21.1272 44.6888 19.5054 39.8724C18.2973 36.2845 17.4074 34.3376 15.7411 30.9362C13.2604 25.8723 9.15368 23.2766 9.15368 23.2766C9.15368 23.2766 10.7173 28.6941 12.2335 31.9575C13.7409 35.2019 16.8533 39.8724 16.8533 39.8724L17.9655 48.7234C17.9655 48.7234 10.0526 39.9176 7.27155 31.9575Z" fill="#231F20"/>
+<path d="M22.5857 2.97886C12.405 2.76609 3.69751 8.56039 3.69751 8.56039C3.69751 8.56039 6.67311 8.93631 14.2872 18.4257C19.4856 24.9044 22.5001 31.8725 22.5001 31.8725C22.5001 31.8725 25.952 24.8224 28.8309 20.8087C31.3926 17.2372 36.1028 12.2129 36.1028 12.2129C29.2686 8.50459 21.8157 7.53206 15.7416 12.7236C15.7416 12.7236 17.1577 13.9619 17.9659 14.8512C18.7637 15.7291 19.9336 17.3193 19.9336 17.3193C19.9336 17.3193 23.2701 11.064 28.4032 12.4682C31.1156 13.2103 23.7846 21.8087 22.5001 23.1491C22.5001 23.1491 20.7891 19.5321 18.137 16.4682C15.593 13.5293 11.2073 9.31929 11.2073 9.31929C11.2073 9.31929 15.9127 6.93631 22.9279 6.93631C30.9707 6.93631 37.386 10.6384 37.386 10.6384L41.3214 8.17035C41.3214 8.17035 32.7663 3.19164 22.5857 2.97886Z" fill="#EE1D23"/>
+<path d="M22.4143 0C10.6938 0 0.0854492 6.55319 0.0854492 6.55319L0.171001 8.80851C0.171001 8.80851 11.2071 2.09841 22.4143 2.04255C33.6216 1.9867 44.7432 8.80851 44.7432 8.80851L44.8288 7.14894C44.8288 7.14894 34.1349 0 22.4143 0Z" fill="#231F20"/>
+</g>
+<defs>
+<clipPath id="clip0_401_3936">
+<rect width="45" height="56" fill="white"/>
+</clipPath>
+</defs>
+</svg>
+</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle fw-bold primary-black ml-5" href="1#" id="navbarDropdown" onclick="openContainer('CatalogBlock', 'flex')">
+          КАТАЛОГ
+        </a>
+
+      </li>
+      <li class="nav-item ml-3">
+        <a class="nav-link" href="discount/index.html">АКЦІЇ </a>
+      </li>
+      <li class="nav-item ml-3">
+        <a class="nav-link" href="../about-us/index.html">ПРО НАС </a>
+      </li>
+      <li class="nav-item ml-3">
+        <a class="nav-link" href="../news/index.html">БЛОГ </a>
+      </li>
+    </ul>
+    <div class="d-lg-flex flex-row">
+      <a href="../search/index.html" class="p-3 position-relative"><img src="../static/assets/img/icons/Search.svg" alt=""></a>
+      <button onclick="openContainer('CompareContainer', 'flex')" class="btn btn-none p-3 position-relative"><img src="../static/assets/img/icons/Compare.svg" alt="">
+      
+
+      </button>
+      <button onclick="openContainer('ShoppingCart', 'flex')" class="btn bg-transparent p-3 position-relative"><img src="../static/assets/img/icons/Shopping_cart.svg" alt="">
+        
+      </button>
+      
+            <button href="#" class="btn bg-transparent p-3 pr-5 position-relative" onclick="openContainer('SignContainer', 'block')"><img src="../static/assets/img/icons/Profile.svg" alt=""></button>
+      
+    </div>
+<!--    <form class="form-inline my-2 my-lg-0">-->
+<!--      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">-->
+<!--      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>-->
+<!--    </form>-->
+  </div>
+
+</nav>
+  <nav class="navbar  navbar-light bg-primary-white fixed-top d-flex d-lg-none d-xl-none shadow-lg">
+  <div>
+    <a onclick="openContainer('XSMenu', 'flex')" class="p-2">
+      <img src="../static/assets/img/icons/Menu.svg" alt="">
+    </a>
+    <a href="../search/index.html" class="p-2">
+      <img src="../static/assets/img/icons/Search.svg" alt="">
+    </a>
+  </div>
+    <a href="../index.html" class="btn">
+      <svg width="39" height="48" viewBox="0 0 39 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_589_23593)">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M0.667375 6.41924C0.0742188 6.41924 0.0742188 6.4194 0.0742188 6.41959L0.0742216 6.42217L0.0742385 6.42916C0.0742574 6.43517 0.0742943 6.44385 0.074366 6.45518C0.0745096 6.47782 0.0747931 6.51102 0.0753526 6.55441C0.0764716 6.64118 0.0786948 6.76874 0.083112 6.93423C0.091946 7.26519 0.109558 7.74796 0.144673 8.35972C0.214891 9.58303 0.355164 11.3233 0.635476 13.3976C1.1956 17.5425 2.31723 23.0396 4.56757 28.4165C7.01281 34.2592 10.6343 39.0559 13.6361 42.387C15.1383 44.0541 16.4889 45.3581 17.4656 46.2467C17.9541 46.6911 18.3493 47.0318 18.6236 47.2624C18.7607 47.3777 18.8677 47.4654 18.9409 47.5248C18.9775 47.5545 19.0057 47.5771 19.0251 47.5926L19.0355 47.6009C19.0403 47.6047 19.0443 47.6079 19.0474 47.6103L19.0535 47.6151L19.0553 47.6165L19.0558 47.617C19.056 47.6171 19.0562 47.6172 19.4259 47.1609L19.0562 47.6172L19.4033 47.8895L19.7667 47.6386L19.4259 47.1609C19.7667 47.6386 19.7669 47.6385 19.7671 47.6383L19.7677 47.6379L19.7696 47.6366L19.7756 47.6324L19.783 47.6272C19.7868 47.6245 19.7914 47.6213 19.7966 47.6176C19.8147 47.6048 19.8406 47.5863 19.8742 47.562C19.9414 47.5133 20.0389 47.4413 20.1643 47.3457C20.4149 47.1546 20.7766 46.8689 21.2279 46.4858C22.1306 45.7196 23.3923 44.5634 24.8418 42.9941C27.7409 39.8557 31.3928 35.0634 34.425 28.4338C36.3187 24.2935 37.4211 18.7814 38.052 14.3416C38.3684 12.1144 38.5681 10.143 38.6886 8.72811C38.7489 8.02048 38.7895 7.45159 38.815 7.05897C38.8277 6.86264 38.8367 6.71036 38.8426 6.6068C38.8455 6.55502 38.8476 6.51542 38.849 6.48858L38.8506 6.45797L38.851 6.44998L38.8511 6.44784L38.8511 6.44723C38.8511 6.44706 38.8511 6.44694 38.2586 6.41924L38.8511 6.44694L38.8674 6.11066L38.5796 5.92848L38.2586 6.41924C38.5796 5.92848 38.5794 5.92837 38.5792 5.92825L38.577 5.92682L38.5712 5.92322C38.5664 5.92017 38.5595 5.91585 38.5505 5.91029C38.5326 5.89916 38.5065 5.88308 38.4725 5.86238C38.4046 5.82098 38.3048 5.76108 38.175 5.68533C37.9153 5.53384 37.5352 5.31887 37.0482 5.06161C36.0744 4.54725 34.6715 3.86296 32.9474 3.17893C29.5043 1.81281 24.755 0.4375 19.5742 0.4375C14.3942 0.4375 9.58999 1.81251 6.09286 3.17772C4.34164 3.86136 2.91138 4.54523 1.91723 5.05917C1.42 5.31622 1.03144 5.53098 0.765901 5.68227C0.633122 5.75792 0.531068 5.81772 0.461535 5.85902C0.426767 5.87968 0.400126 5.89571 0.381836 5.90678C0.372691 5.91232 0.365634 5.91662 0.360691 5.91964L0.354868 5.92321L0.352595 5.92461C0.3524 5.92473 0.352238 5.92483 0.667375 6.41924ZM1.26521 6.74685C1.26624 6.7942 1.26749 6.84649 1.26901 6.90359C1.27756 7.22367 1.2947 7.69469 1.3291 8.29391C1.3979 9.49255 1.53567 11.203 1.81144 13.2438C2.36349 17.329 3.46619 22.7195 5.66452 27.9721C8.04303 33.6553 11.5764 38.342 14.5237 41.6127C15.996 43.2465 17.3184 44.523 18.2711 45.3897C18.7473 45.823 19.1309 46.1536 19.3942 46.375C19.4117 46.3897 19.4286 46.4038 19.4449 46.4175C19.6798 46.2382 20.0227 45.9673 20.453 45.602C21.3229 44.8637 22.5496 43.7402 23.9639 42.2091C26.7925 39.147 30.3697 34.4559 33.3432 27.9549C35.1646 23.9726 36.2495 18.5971 36.8771 14.18C37.1899 11.9788 37.3873 10.0294 37.5065 8.6306C37.566 7.9314 37.606 7.37023 37.6311 6.9845C37.6372 6.89052 37.6424 6.80696 37.6468 6.73437C37.6226 6.72011 37.597 6.70506 37.5699 6.68925C37.3235 6.54553 36.9581 6.33877 36.4871 6.08995C35.5446 5.59215 34.1811 4.92691 32.5038 4.2614C29.1442 2.92844 24.5513 1.60467 19.5742 1.60467C14.5965 1.60467 9.94723 2.92874 6.53038 4.26261C4.82462 4.92851 3.43276 5.59418 2.46903 6.09239C1.98732 6.34142 1.61301 6.54838 1.3604 6.69231C1.32646 6.71165 1.29472 6.72984 1.26521 6.74685ZM0.667375 6.41924L0.352238 5.92483L0.0742188 6.09637V6.41924H0.667375Z" fill="#231F20"/>
+<path d="M6.30201 27.392C2.07589 15.4284 2.66913 9.30078 2.66913 9.30078C2.66913 9.30078 7.93319 11.854 13.6423 19.9512C16.4484 23.9312 19.4997 30.9664 19.4997 30.9664C19.4997 30.9664 22.356 23.8804 25.2089 19.9512C31.247 11.6351 36.2566 9.33725 36.2566 9.33725C36.2566 9.33725 36.5986 17.0333 32.5492 27.392C29.5834 34.9786 23.4294 41.7628 23.4294 41.7628L24.3933 34.1762C24.3933 34.1762 27.1034 30.1787 28.3971 27.392C29.6943 24.5975 30.9921 19.9512 30.9921 19.9512C30.9921 19.9512 27.73 21.8114 25.2089 26.5166C23.6716 29.3856 22.9935 31.1008 21.9465 34.1762C20.541 38.3045 19.4256 45.0455 19.4256 45.0455C19.4256 45.0455 18.3102 38.3045 16.9047 34.1762C15.8577 31.1008 15.0865 29.4321 13.6423 26.5166C11.4923 22.1762 7.93319 19.9512 7.93319 19.9512C7.93319 19.9512 9.28836 24.5948 10.6024 27.392C11.9088 30.1729 14.6062 34.1762 14.6062 34.1762L15.5701 41.7628C15.5701 41.7628 8.71225 34.215 6.30201 27.392Z" fill="#231F20"/>
+<path d="M19.5741 2.55275C10.7509 2.37038 3.20435 7.33692 3.20435 7.33692C3.20435 7.33692 5.7832 7.65914 12.3821 15.7929C16.8873 21.3461 19.4999 27.3187 19.4999 27.3187C19.4999 27.3187 22.4916 21.2758 24.9866 17.8354C27.2068 14.7742 31.2889 10.4677 31.2889 10.4677C25.366 7.28909 18.9068 6.4555 13.6425 10.9053C13.6425 10.9053 14.8699 11.9668 15.5703 12.7291C16.2617 13.4816 17.2756 14.8446 17.2756 14.8446C17.2756 14.8446 20.1672 9.48284 24.6159 10.6865C26.9667 11.3225 20.6131 18.6926 19.4999 19.8415C19.4999 19.8415 18.017 16.7412 15.7186 14.1151C13.5138 11.596 9.71286 7.98741 9.71286 7.98741C9.71286 7.98741 13.7908 5.94485 19.8707 5.94485C26.8411 5.94485 32.4011 9.1181 32.4011 9.1181L35.8117 7.0026C35.8117 7.0026 28.3973 2.73513 19.5741 2.55275Z" fill="#EE1D23"/>
+<path d="M19.4259 0C9.26814 0 0.0742188 5.61702 0.0742188 5.61702L0.148363 7.55015C0.148363 7.55015 9.713 1.79864 19.4259 1.75076C29.1389 1.70288 38.7776 7.55015 38.7776 7.55015L38.8518 6.12766C38.8518 6.12766 29.5837 0 19.4259 0Z" fill="#231F20"/>
+</g>
+<defs>
+<clipPath id="clip0_589_23593">
+<rect width="39" height="48" fill="white"/>
+</clipPath>
+</defs>
+</svg>
+
+    </a>
+    <div>
+      <button onclick="openContainer('CompareContainer', 'flex')" class="p-2 btn-none position-relative">
+        <img src="../static/assets/img/icons/Compare.svg" alt="">
+        
+        
+      </button>
+      <a onclick="openContainer('ShoppingCart', 'flex')"  class="p-2 position-relative">
+        <img src="../static/assets/img/icons/Shopping_cart.svg" alt="">
+          
+      </a>
+    </div>
+  </nav>
+  <div id="XSMenu" class="fixed-top d-none bg-primary-white top-0 left-0 container-fluid w-100 h-100 flex-column justify-content-between mx-auto p-0">
+        <div>
+                <div class="row w-100 mx-auto">
+                  <div class="col-12 w-100 d-flex justify-content-between align-items-center p-4">
+                        <a href="../index.html" class="btn" id="LogoMain">
+                          <img onclick="openContainer('XSMenu', 'flex')" src="../static/assets/img/icons/Logo-xs.svg" alt="">
+                        </a>
+                      <div class=" d-none  align-items-center" id="LogoAlt"> <!--что бы вернуться от категорий к общему меню-->
+                            <a class="btn">
+                              <img onclick="openContainer('MenuMobile', 'flex');openContainer('CatalogBlockMobile', 'flex');openContainer('LogoMain','flex'); openContainer('LogoAlt','flex')" src="../static/assets/img/icons/arrow-left.svg" alt="">
+                            </a>
+                          <span class="primary-black fw-500 fs-24 py-2">КАТАЛОГ</span>
+                      </div>
+                         
+                        <div class="d-none align-items-center" id="LogoAltCatalog1" onclick="openContainer('ProductsBlockMobile1', 'flex');openContainer('CatalogBlockMobile', 'flex');openContainer('LogoAltCatalog1', 'flex');openContainer('LogoAlt','flex')"> <!--что бы вернуться от товаров к категориям-->
+                            <a class="btn">
+                              <img  src="../static/assets/img/icons/arrow-left.svg" alt="">
+                            </a>
+                          <span class="primary-black fw-500 fs-24 py-2">Глушники</span>
+                         </div>
+                            
+                        <div class="d-none align-items-center" id="LogoAltCatalog2" onclick="openContainer('ProductsBlockMobile2', 'flex');openContainer('CatalogBlockMobile', 'flex');openContainer('LogoAltCatalog2', 'flex');openContainer('LogoAlt','flex')"> <!--что бы вернуться от товаров к категориям-->
+                            <a class="btn">
+                              <img  src="../static/assets/img/icons/arrow-left.svg" alt="">
+                            </a>
+                          <span class="primary-black fw-500 fs-24 py-2">Полум&#x27;ягасники</span>
+                         </div>
+                            
+                        <div class="d-none align-items-center" id="LogoAltCatalog3" onclick="openContainer('ProductsBlockMobile3', 'flex');openContainer('CatalogBlockMobile', 'flex');openContainer('LogoAltCatalog3', 'flex');openContainer('LogoAlt','flex')"> <!--что бы вернуться от товаров к категориям-->
+                            <a class="btn">
+                              <img  src="../static/assets/img/icons/arrow-left.svg" alt="">
+                            </a>
+                          <span class="primary-black fw-500 fs-24 py-2">Планки</span>
+                         </div>
+                            
+                        <div class="d-none align-items-center" id="LogoAltCatalog4" onclick="openContainer('ProductsBlockMobile4', 'flex');openContainer('CatalogBlockMobile', 'flex');openContainer('LogoAltCatalog4', 'flex');openContainer('LogoAlt','flex')"> <!--что бы вернуться от товаров к категориям-->
+                            <a class="btn">
+                              <img  src="../static/assets/img/icons/arrow-left.svg" alt="">
+                            </a>
+                          <span class="primary-black fw-500 fs-24 py-2">Аксесуари</span>
+                         </div>
+                            
+                    <button class="btn bg-transparent" onclick="openContainer('XSMenu', 'flex')">
+                      <img src="../static/assets/img/icons/close.svg" alt="">
+                    </button>
+                  </div>
+                </div>
+
+                  <div class="row d-none" id="CatalogBlockMobile">
+                     <div class="col-12 w-100 d-flex justify-content-between align-items-center p-4">
+                        <ul class="w-100 d-flex flex-column p-0 mx-auto">
+                            
+                            <li class="d-flex flex-row justify-content-between align-items-center pl-4 pr-4" onclick="openContainer('ProductsBlockMobile1', 'flex');openContainer('CatalogBlockMobile','flex');openContainer('LogoAlt','flex');openContainer('LogoAltCatalog1','flex')" >
+                                <a class="primary-black fw-500 fs-22 p-2">Глушники</a>
+                                <img src="../static/assets/img/icons/arrow-right.svg" class="p-3" alt="">
+                             </li>
+                            
+                            <li class="d-flex flex-row justify-content-between align-items-center pl-4 pr-4" onclick="openContainer('ProductsBlockMobile2', 'flex');openContainer('CatalogBlockMobile','flex');openContainer('LogoAlt','flex');openContainer('LogoAltCatalog2','flex')" >
+                                <a class="primary-black fw-500 fs-22 p-2">Полум&#x27;ягасники</a>
+                                <img src="../static/assets/img/icons/arrow-right.svg" class="p-3" alt="">
+                             </li>
+                            
+                            <li class="d-flex flex-row justify-content-between align-items-center pl-4 pr-4" onclick="openContainer('ProductsBlockMobile3', 'flex');openContainer('CatalogBlockMobile','flex');openContainer('LogoAlt','flex');openContainer('LogoAltCatalog3','flex')" >
+                                <a class="primary-black fw-500 fs-22 p-2">Планки</a>
+                                <img src="../static/assets/img/icons/arrow-right.svg" class="p-3" alt="">
+                             </li>
+                            
+                            <li class="d-flex flex-row justify-content-between align-items-center pl-4 pr-4" onclick="openContainer('ProductsBlockMobile4', 'flex');openContainer('CatalogBlockMobile','flex');openContainer('LogoAlt','flex');openContainer('LogoAltCatalog4','flex')" >
+                                <a class="primary-black fw-500 fs-22 p-2">Аксесуари</a>
+                                <img src="../static/assets/img/icons/arrow-right.svg" class="p-3" alt="">
+                             </li>
+                            
+                        </ul>
+                    </div>
+                  </div>
+<!-- Products from Category items           -->
+            
+                <div class="row d-none" id="ProductsBlockMobile1">
+                     <div class="col-12 w-100 d-flex justify-content-between align-items-center p-4">
+                            <ul class="w-100 d-flex flex-column p-0 mx-auto">
+                                
+                                
+                                    <li class="d-flex flex-row justify-content-between align-items-center pl-4 pr-4"  >
+                                        <a href="product/1" class="primary-black fw-500 fs-22 p-2">Глушник БМ8 7,62</a>
+                                        <img src="../static/assets/img/icons/arrow-right.svg" class="p-3" alt="">
+                                     </li>
+                                
+                                
+                                
+                                
+                                
+                                    <li class="d-flex flex-row justify-content-between align-items-center pl-4 pr-4"  >
+                                        <a href="product/3" class="primary-black fw-500 fs-22 p-2">Глушитель м4</a>
+                                        <img src="../static/assets/img/icons/arrow-right.svg" class="p-3" alt="">
+                                     </li>
+                                
+                                
+                                
+                                    <li class="d-flex flex-row justify-content-between align-items-center pl-4 pr-4"  >
+                                        <a href="product/4" class="primary-black fw-500 fs-22 p-2">Глушник м16</a>
+                                        <img src="../static/assets/img/icons/arrow-right.svg" class="p-3" alt="">
+                                     </li>
+                                
+                                
+                            </ul>
+                     </div>
+                  </div>
+            
+                <div class="row d-none" id="ProductsBlockMobile2">
+                     <div class="col-12 w-100 d-flex justify-content-between align-items-center p-4">
+                            <ul class="w-100 d-flex flex-column p-0 mx-auto">
+                                
+                                
+                                
+                                
+                                    <li class="d-flex flex-row justify-content-between align-items-center pl-4 pr-4"  >
+                                        <a href="product/2" class="primary-black fw-500 fs-22 p-2">Полумясгасник</a>
+                                        <img src="../static/assets/img/icons/arrow-right.svg" class="p-3" alt="">
+                                     </li>
+                                
+                                
+                                
+                                
+                                
+                                
+                            </ul>
+                     </div>
+                  </div>
+            
+                <div class="row d-none" id="ProductsBlockMobile3">
+                     <div class="col-12 w-100 d-flex justify-content-between align-items-center p-4">
+                            <ul class="w-100 d-flex flex-column p-0 mx-auto">
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                            </ul>
+                     </div>
+                  </div>
+            
+                <div class="row d-none" id="ProductsBlockMobile4">
+                     <div class="col-12 w-100 d-flex justify-content-between align-items-center p-4">
+                            <ul class="w-100 d-flex flex-column p-0 mx-auto">
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                            </ul>
+                     </div>
+                  </div>
+            
+
+                <div class="row d-flex" id="MenuMobile">
+                  <div class="col-12 w-100 d-flex justify-content-between align-items-center p-4">
+                    <ul class="w-100 d-flex flex-column p-0 mx-auto">
+                      <li class="d-flex flex-row justify-content-between align-items-center pl-4 pr-4" onclick="openContainer('CatalogBlockMobile', 'flex');openContainer('MenuMobile', 'flex');openContainer('LogoMain','flex'); openContainer('LogoAlt','flex');" >
+                        <a class="primary-black fw-500 fs-24 p-2">КАТАЛОГ</a>
+                        <img src="../static/assets/img/icons/arrow-right.svg" class="p-3" alt="">
+                      </li>
+                      <li class="d-flex flex-row justify-content-between align-items-center pl-4 pr-4">
+                        <a href="discount/index.html" class="primary-black fw-500 fs-24 p-2">АКЦІЇ</a>
+                        <img src="../static/assets/img/icons/arrow-right.svg" class="p-3" alt="">
+                      </li>
+                      <li class="d-flex flex-row justify-content-between align-items-center pl-4 pr-4">
+                        <a href="../about-us/index.html" class="primary-black fw-500 fs-24 p-2">ПРО НАС</a>
+                        <img src="../static/assets/img/icons/arrow-right.svg" class="p-3" alt="">
+                      </li>
+                      <li class="d-flex flex-row justify-content-between align-items-center pl-4 pr-4">
+                        <a href="../news/index.html" class="primary-black fw-500 fs-24 p-2">БЛОГ</a>
+                        <img src="../static/assets/img/icons/arrow-right.svg" class="p-3" alt="">
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+        </div>
+
+
+    <div class="row w-100 mx-auto">
+      <div class="col-12 flex-column p-4">
+        
+          <p class="fs-18 fw-400 secondary-dark-gray ">Увійти в особистий кабінет</p>
+        <a href="../login/index.html" class="btn btn-dark primary-white w-100 fs-24 fw-500 d-flex align-items-center  justify-content-center mb-3">Увійти</a>
+        <a href="../registration/index.html" class="btn btn-outline-dark w-100 fs-24 fw-500 d-flex align-items-center justify-content-center">Зареєструватись</a>
+        
+      </div>
+    </div>
+  </div>
+
+  <div id="SubmenuProfile" class="container-fluid bg-secondary-light-grey fixed-top p-0 w-100 d-none" style="margin-top: 72px;">
+  <div class="row w-100" >
+    <div class="col-12 col-lg-12 col-xl-12 pt-2 pl-5 d-flex flex-row justify-content-between align-items-center w-100">
+      <a href="../profile/index.html" class="fw-500 fs-18 primary-black"></a>
+      <button class="btn bg-transparent" onclick="openContainer('SubmenuProfile', 'flex')"><img src="../static/assets/img/icons/close.svg" alt=""></button>
+
+    </div>
+    <div class="col-12 col-lg-12 col-xl-12 pt-2 pl-5 d-flex flex-column">
+      <a href="../profile/index.html" class="primary-black fs-16 fw-400 mt-3">Деталі профілю</a>
+      <a href="1" class="primary-black fs-16 fw-400 mt-3">Історія замовлень</a>
+      <a href="http://d196-46-211-244-107.ngrok.io/logout/" class="primary-black fs-16 fw-400 mt-3 mb-3">Вийти</a>
+    </div>
+  </div>
+  </div>
+  <!-- Sign in & Sign Out Modal Window -->
+  <div id="SignContainer" class=" pt-5 container-fluid sign-container bg-secondary-gray-opacity fixed-top justify-content-center align-items-center w-100 h-100 z-index-9999 d-none">
+    <div class="row pt-1 mt-2">
+      <div class="col-12 col-lg-5 col-xl-5 col-md-5 mx-auto bg-primary-white rounded p-4">
+        <div class="d-flex flex-row justify-content-between pr-0 pl-0 pt-1 pb-0 ">
+          <p id="title-login" class="d-flex fs-30 fw-700 ">Вхід</p>
+          <p id="title-reg" class="d-none fs-30 fw-700 ">Зареєструватись</p>
+          <button class="btn bg-transparent" onclick="openContainer('SignContainer', 'block')"><img src="../static/assets/img/icons/close.svg" alt=""></button>
+        </div>
+
+        <div class="d-flex flex-lg-row flex-xl-row auth__form">
+          <a id="btnEntryForm" href="1#" onclick="openContainer('EntryForm', 'flex'); openContainer('title-reg', 'flex');openContainer('title-login', 'flex')"  class=" primary-black fw-500 fs-16 pb-2 active__auth__form">УВІЙТИ</a>
+          <a id="btnRegisterForm" href="1#" onclick="openContainer('RegisterForm', 'flex'); openContainer('title-reg', 'flex');openContainer('title-login', 'flex')" class=" fw-500 fs-16 pb-2 secondary-gray active__auth__form">Я ТУТ ВПЕРШЕ</a>
+        </div>
+        <div class="w-100 d-flex flex-column" id="EntryForm">
+          <form method="POST" >
+            <input type="hidden" name="csrfmiddlewaretoken" value="ExUgchu9s8PvqXvzKZBhX3w8pJrFvIS8k5TEI24lpduC32T8RnAJyzrMjaGX5ts6">
+            
+
+<div id="div_id_email" class="mb-3"> <label for="id_email" class="form-label requiredField">
+                Електронна пошта<span class="asteriskField">*</span> </label> <input type="email" name="email" placeholder="example@gmail.com" class="emailinput form-control" required id="id_email"> </div> <div id="div_id_password1" class="mb-3"> <label for="id_password1" class="form-label requiredField">
+                Пароль<span class="asteriskField">*</span> </label> <input type="password" name="password1" placeholder="Ваш пароль" class="textinput textInput form-control" required id="id_password1"> </div>
+
+              <div id="errorMessage"></div>
+            <button class="btn btn-dark w-100" type="submit" >Увійти</button>
+          </form>
+          <p class="primary-black fs-14 fw-400 text-center mt-4">Вперше у нас? <a onclick="openContainer('RegisterForm', 'flex'); openContainer('title-reg', 'flex');openContainer('title-login', 'flex')" class="primary-green fs-14 fw-500">Зареєструватись</a></p>
+        </div>
+
+        <div class="w-100 flex-column d-none" id="RegisterForm">
+          <form  method="POST">
+            <input type="hidden" name="csrfmiddlewaretoken" value="ExUgchu9s8PvqXvzKZBhX3w8pJrFvIS8k5TEI24lpduC32T8RnAJyzrMjaGX5ts6">
+            
+
+<div id="div_id_first_name" class="mb-3"> <label for="id_first_name" class="form-label requiredField">
+                Ім&#x27;я<span class="asteriskField">*</span> </label> <input type="text" name="first_name" placeholder="Ім&#x27;я" class="textinput textInput form-control" required id="id_first_name"> </div> <div id="div_id_email" class="mb-3"> <label for="id_email" class="form-label requiredField">
+                Електронна пошта<span class="asteriskField">*</span> </label> <input type="email" name="email" placeholder="example@example.com" class="emailinput form-control" required id="id_email"> </div> <div id="div_id_phone" class="mb-3"> <label for="id_phone" class="form-label requiredField">
+                Номер телефону<span class="asteriskField">*</span> </label> <input type="text" name="phone" placeholder="Ваш номер телефону" class="textinput textInput form-control" required id="id_phone"> </div> <div id="div_id_password1" class="mb-3"> <label for="id_password1" class="form-label requiredField">
+                Пароль<span class="asteriskField">*</span> </label> <input type="password" name="password1" placeholder="Ваш пароль" data-toggle="password" class="textinput textInput form-control" required id="id_password1"> </div> <input type="hidden" name="password2" id="id_password2">
+
+              <div id="errorMessageRegister"></div>
+            <button class="btn btn-dark w-100 mb-4" type="submit">Зареєструватись</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End Sign in & Sign Out -->
+
+  
+  <!-- Shopping Cart -->
+  <div id="ShoppingCart" class="d-none justify-content-center align-items-center z-index-9999 bg-wrapper w-100 h-100 fixed-top top-0">
+    <div class="d-flex p-4 flex-column bg-primary-white w-100 w-xl-50 w-lg-50 w-md-50">
+      <div class="d-flex justify-content-between align-items-center mb-2">
+        <p class="primary-black fs-30 fw-700">У кошику нічого немає</p>
+        <img src="../static/assets/img/icons/close.svg" onclick="openContainer('ShoppingCart', 'flex')" >
+      </div>
+      <div class="mb-3">
+        <p class="fs-16 fw-500">Тут з'являться товари, додані до кошика.</p>
+      </div>
+      <button onclick="openContainer('ShoppingCart', 'flex')" class="btn btn-dark">Продовжити покупки</button>
+    </div>
+  </div>
+  <!-- End Shopping Cart  -->
+  
+  <!-- Catalog block -->
+  <div id="CatalogBlock" class="d-none mt-5 pt-4 fixed-top w-100 h-50" style="box-shadow: 1px 14px 10px rgb(86 84 84 / 16%);">
+    <div class=" pl-5 d-flex flex-row bg-primary-white w-100 h-100 border-top mt-2" >
+        
+          
+            <div class="col-2 mt-5">
+              <a href="1" class="fs-16 fw-500 primary-black ">ГЛУШНИКИ</a>
+              <ul class="list-group mt-4">
+                
+                  
+                    <li class="mb-3"><a href="product/1" class="primary-black fs-14 fw-400">Глушник БМ8 7,62</a></li>
+                  
+                
+                  
+                
+                  
+                    <li class="mb-3"><a href="product/3" class="primary-black fs-14 fw-400">Глушитель м4</a></li>
+                  
+                
+                  
+                    <li class="mb-3"><a href="product/4" class="primary-black fs-14 fw-400">Глушник м16</a></li>
+                  
+                
+              </ul>
+            </div>
+          
+            <div class="col-2 mt-5">
+              <a href="2" class="fs-16 fw-500 primary-black ">ПОЛУМ&#x27;ЯГАСНИКИ</a>
+              <ul class="list-group mt-4">
+                
+                  
+                
+                  
+                    <li class="mb-3"><a href="product/2" class="primary-black fs-14 fw-400">Полумясгасник</a></li>
+                  
+                
+                  
+                
+                  
+                
+              </ul>
+            </div>
+          
+            <div class="col-2 mt-5">
+              <a href="3" class="fs-16 fw-500 primary-black ">ПЛАНКИ</a>
+              <ul class="list-group mt-4">
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+              </ul>
+            </div>
+          
+            <div class="col-2 mt-5">
+              <a href="4" class="fs-16 fw-500 primary-black ">АКСЕСУАРИ</a>
+              <ul class="list-group mt-4">
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+              </ul>
+            </div>
+          
+        
+    </div>
+  </div>
+  <!-- End Catalog block -->
+  <!-- Compare Block -->
+  <div class="modal__wrapp position-fixed d-none" id="CompareContainer">
+            <div class="row mx-0 w-100 justify-content-center">
+                <div class="d-flex flex-column modal-card px-4 mx-4 w-100">
+                  
+                      <div class="if__no__items h-100">
+                        <div class="d-flex flex-column justify-content-center align-items-center mx-lg-2 h-100">
+                            <p class="fs-24 fw-600 primary-black m-0 mr-3">
+                                Товари для порівняння відсутні :(
+                            </p>
+                            <a href="../index.html" class="btn btn-dark d-flex mt-4">Додати товари</a>
+                        </div>
+                    </div>
+                  
+                </div>
+            </div>
+       </div>
+  <!-- End Compare Block -->
+
+
+  
+
+
+<div class="container-fluid mt-5 pt-5 px-4 px-lg-5 ">
+    <div class="row position-relative">
+        <div class="col-12 mt-3">
+            <a href="../index.html" class="secondary-dark-gray primary-red-hover  fs-15 fw-500">Головна</a>
+            &nbsp;&nbsp;
+            <img src="../static/assets/img/icons/ellipse.svg" alt="">
+            &nbsp;&nbsp;
+            <button onclick="openContainer('CatalogBlock', 'flex')" class="bg-transparent border-0 secondary-dark-gray primary-red-hover  fs-15 fw-500">Каталог</button>
+            &nbsp;
+            <img src="../static/assets/img/icons/ellipse.svg" alt="">
+            &nbsp;
+            <a href="1" class="secondary-dark-gray primary-red-hover  fs-15 fw-500">Глушники</a>
+
+        </div>
+
+        <div class="col-12">
+            <h1 class="primary-black fs-30 fw-700 mt-5 mb-5">Глушники</h1>
+        </div>
+
+       <div class="col-12 pl-0 d-flex d-lg-flex d-xl-flex d-md-flex flex-row mt-2 px-0 ml-3 query__form" onchange="addQuery(event)">
+                    <form action="1" class="d-flex flex-row">
+                        <div class="form-group col-md-3 mr-3 px-0">
+                            <select class="form-control sort" id="exampleFormControlSelectSort">
+                            <option disabled="true" selected="true">Сортувати</option>
+                                
+                                <option value="expensive">Від найдорожчих до найдешевших</option>
+                                
+                                <option value="cheaper">Від найдешевших до найдорожчих</option>
+                                
+                                <option value="new">За новизною</option>
+                                
+                                <option value="discount">Максимальна знижка спочатку</option>
+                                
+                            </select>
+                                     <img src="../static/assets/img/icons/Vector.svg" alt="arrow" class="arrow position-absolute" onclick="showPriceInputs()">
+
+                        </div>
+
+                        <div class="form-group px-0 col-2 col-md-2 col-lg-2 col-xl-2 mr-3 position-relative">
+                            <div class="form-control" onclick="showPriceInputs()" style="height:auto;">Ціна</div>
+                            <img src="../static/assets/img/icons/Vector.svg" alt="arrow" class="arrow position-absolute" onclick="showPriceInputs()">
+
+                            <div class="position-absolute d-none priceInputs pt-4 pb-5">
+                                <div class="mx-2 p-0 pt-2 pb-4 d-flex align-items-center">
+                                    <label class="m-0 ml-4 secondary-dark-gray fs-16 fw-400">від</label>
+                                    <input id="InputNumber" type="tel" class="form-control mr-2 ml-3 min__price" placeholder="1" value="1" onchange="event.stopPropagation()">
+                                    <label class="m-0 ml-4 secondary-dark-gray fs-16 fw-400">до</label>
+                                    <input id="InputNumber" type="tel" class="form-control ml-3 mr-4 max__price" placeholder="1" value="1" onchange="event.stopPropagation()" >
+                                </div>
+                                <span class="position-absolute apply text-decoration-underline primary-green" onclick="addQuery(event)">Застосувати</span>
+                            </div>
+                        </div>
+
+                        <div class="form-group mr-3 position-relative">
+                            <select class="form-control caliber" id="exampleFormControlSelectCaliber">
+                            <option>Калібр</option>
+                                
+                            <option value="1">7,62</option>
+                                
+                            <option value="2">7</option>
+                                
+                            <option value="3">9</option>
+                                
+                            </select>
+                            <img src="../static/assets/img/icons/Vector.svg" alt="arrow" class="arrow position-absolute" onclick="showPriceInputs()">
+
+                        </div>
+
+                        <div class="form-group mr-3 position-relative">
+                            <select class="form-control weapon__type" id="exampleFormControlSelectTypeWeapon">
+                            <option>Тип зброї</option>
+                                
+                            <option value="1">АК-74</option>
+                                
+                            <option value="2">АКС-74</option>
+                                
+                            <option value="3">АКС-74У</option>
+                                
+                            <option value="4">м4</option>
+                                
+                            <option value="5">м16</option>
+                                
+                            </select>
+                             <img src="../static/assets/img/icons/Vector.svg" alt="arrow" class="arrow position-absolute" onclick="showPriceInputs()">
+
+                        </div>
+
+                    </form>
+                </div>
+
+                <div class="col-12 d-none d-md-flex align-items-center mb-3 mt-3 queryList pl-0">
+
+                </div>
+        <div class="col-12">
+            <p class="fs-18 fw-600 primary-black">3 товарів</p>
+        </div>
+    </div>
+
+    <div class="row" id="ProductsList">
+        
+            
+                <div class="col-6 col-md-4 col-xl-3 px-lg-4 mb-4 mb-md-5 card-product p-1">
+                    <a href="product/1"  class="d-flex flex-column pt-3">
+                        <div class="card-image position-relative">
+                               <img src="../media/Глушники/Глушник&#32;БМ8&#32;7,62/Photo.png" alt="" class="card-image">
+                            
+
+                            
+                                <button class="rounded bg-secondary-dark-red primary-white fs-14 fw-400 position-absolute bottom-0 mb-2 mb-md-3 ml-2 ml-md-3 left-0 border-0 p-2">-20%</button>
+                            
+                        </div>
+                        <div class="card-body p-0 m-0">
+                            <h2 class="primary-black fs-18 fw-600 mt-3">Глушник БМ8 7,62</h2>
+                            <h3 class="secondary-dark-gray fs-16 fw-500 mt-0">Калібр 7,62</h3>
+                            <div class="mt-3">
+                                
+                                <span class="text-decoration-line-through secondary-dark-gray fs-16 fw-500 mr-3">2600 грн.</span>
+                                
+                                <span class="primary-black fs-20 fw-600">2100 грн.</span>
+                            </div>
+                            <a href="product/1"  class="primary-green fs-16 fw-500 mb-4 mt-3 d-none justify-content-center align-items-center btn-link text-decoration-underline">Переглянути товар</a>
+                        </div>
+                    </a>
+                </div>
+            
+                <div class="col-6 col-md-4 col-xl-3 px-lg-4 mb-4 mb-md-5 card-product p-1">
+                    <a href="product/3"  class="d-flex flex-column pt-3">
+                        <div class="card-image position-relative">
+                               <img src="../media/Глушники/Глушитель&#32;м4/товар_2.jpg" alt="" class="card-image">
+                            
+                                <button class="rounded bg-primary-green primary-white fs-14 fw-400 position-absolute mt-2 mt-md-3 ml-2 ml-md-3 border-0 left-0 p-2">НОВИНКА</button>
+                            
+
+                            
+                        </div>
+                        <div class="card-body p-0 m-0">
+                            <h2 class="primary-black fs-18 fw-600 mt-3">Глушитель м4</h2>
+                            <h3 class="secondary-dark-gray fs-16 fw-500 mt-0">Калібр 7,62</h3>
+                            <div class="mt-3">
+                                
+                                <span class="text-decoration-line-through secondary-dark-gray fs-16 fw-500 mr-3">6000 грн.</span>
+                                
+                                <span class="primary-black fs-20 fw-600">5000 грн.</span>
+                            </div>
+                            <a href="product/3"  class="primary-green fs-16 fw-500 mb-4 mt-3 d-none justify-content-center align-items-center btn-link text-decoration-underline">Переглянути товар</a>
+                        </div>
+                    </a>
+                </div>
+            
+                <div class="col-6 col-md-4 col-xl-3 px-lg-4 mb-4 mb-md-5 card-product p-1">
+                    <a href="product/4"  class="d-flex flex-column pt-3">
+                        <div class="card-image position-relative">
+                               <img src="../media/Глушники/Глушник&#32;м16/товару_4.jpeg" alt="" class="card-image">
+                            
+                                <button class="rounded bg-primary-green primary-white fs-14 fw-400 position-absolute mt-2 mt-md-3 ml-2 ml-md-3 border-0 left-0 p-2">НОВИНКА</button>
+                            
+
+                            
+                                <button class="rounded bg-secondary-dark-red primary-white fs-14 fw-400 position-absolute bottom-0 mb-2 mb-md-3 ml-2 ml-md-3 left-0 border-0 p-2">-46%</button>
+                            
+                        </div>
+                        <div class="card-body p-0 m-0">
+                            <h2 class="primary-black fs-18 fw-600 mt-3">Глушник м16</h2>
+                            <h3 class="secondary-dark-gray fs-16 fw-500 mt-0">Калібр 9</h3>
+                            <div class="mt-3">
+                                
+                                <span class="text-decoration-line-through secondary-dark-gray fs-16 fw-500 mr-3">3550 грн.</span>
+                                
+                                <span class="primary-black fs-20 fw-600">2500 грн.</span>
+                            </div>
+                            <a href="product/4"  class="primary-green fs-16 fw-500 mb-4 mt-3 d-none justify-content-center align-items-center btn-link text-decoration-underline">Переглянути товар</a>
+                        </div>
+                    </a>
+                </div>
+            
+        
+    </div>
+</div>
+<script>
+
+        //айди у типа сортировки должен совпадать с ключем объекта запросов сортировки!!! (мобайл версия)
+        /*<div class="d-flex align-items-center justify-content-center" id="caliber">
+        <p class="fs-20 fw-400 primary-black m-0" >Калібр</p>
+         let queryObject = {
+            caliber: ''
+        };*/
+    localStorage.clear();
+
+    let sort = document.querySelector('.sort');
+    let priceMin = document.querySelector('.min__price');
+    let priceMax = document.querySelector('.max__price');
+    let caliber = document.querySelector('.caliber');
+    let weapon__type = document.querySelector('.weapon__type');
+    let queryList = document.querySelector('.queryList');
+    let priceInputs = document.querySelector('.priceInputs');
+    let queryForm = document.querySelector('.query__form');
+    let searchInp = document.querySelector('.search-inp');
+
+    let filterAndSort = document.querySelector('.filterAndSort');
+    let priceMinMobile = document.querySelector('.min__price__mobile');
+    let priceMaxMobile  = document.querySelector('.max__price__mobile');
+    let customCheckBoxes = document.querySelectorAll('.custom-checkbox-gift')
+    let isChecked;
+
+    let sorlList = document.querySelectorAll('.sorl-list span.badge');
+    let domElement;
+    let childWithBadge;
+
+    let queryObject = {
+        sort: '',
+        priceMin: '',
+        priceMax: '',
+        caliber: '',
+        weapon__type: '',
+    };
+
+    let queryObjectForQueryList = {
+        sort: '',
+        priceMin: '',
+        priceMax: '',
+        caliber: '',
+        weapon__type: '',
+    };
+
+    let previousSortQuery; // get id of sort query to delete it when the other sort query is selected
+    let previousPriceQuery; // get id of price query to delete it when the other sort query is selected
+
+    //search via input
+    function searchItems (e){
+        let queryFromInput = e.target.value;
+        if(queryFromInput.length <1){
+            queryForm.classList.add('hide');
+        }
+        else if(queryFromInput.length >=1){
+            queryForm.classList.remove('hide');
+            localStorage.setItem('filter_word', queryFromInput);
+            sendFetch ();
+
+            return queryFromInput;
+        }
+    }
+
+
+    let test = 5;
+    // mobile functions
+    function addQueryMobile (e){
+        key = e.target.parentNode.parentNode.classList[0];
+        value = e.target.value;
+        keyForPrice = e.target.classList[0];
+
+        if(e.target.parentNode.parentNode.classList[0] == 'sort'){/* adding a sort query */
+            value = e.target.innerHTML;
+            queryObject[key] = value;
+        }
+        else if(keyForPrice == 'btn'){  /* adding a price query */
+            queryObject.priceMin = priceMinMobile.value;
+            queryObject.priceMax = priceMaxMobile.value;
+        }
+        else if(queryObject[key]){
+            isChecked = document.getElementById(e.target.id).checked;/* adding a caliber or weapon__type query if they already was in queryObj */
+            queryObject[key] =  queryObject[key] + ';' + checkValue(value, key);
+            removeCheckedValue(value,key,isChecked);
+        }
+        else{
+            isChecked = document.getElementById(e.target.id).checked;
+            queryObject[key] =  value;
+        }
+        console.log('mobile',queryObject)
+    }
+
+    function removeCheckedValue (value, key, isChecked){ //delete string from query if user checked input two times
+        if(!isChecked){
+            let newQuery =  queryObject[key].replace(value, null);
+            queryObject[key] = newQuery;
+        }
+
+    }
+
+    function clearQuery(){
+        customCheckBoxes.forEach(element => {
+           element.checked = false;
+        });
+        priceMinMobile.value = 1;
+        priceMaxMobile.value = 1;
+        queryObject = {
+            sort: '',
+            priceMin: '',
+            priceMax: '',
+            caliber: '',
+            weapon__type: '',
+        };
+        sorlList.forEach(element => {
+            element.classList.add('d-none');
+        });
+        console.log(queryObject);
+    }
+
+    function getNullsCount (string){  //получить кол-во нулей, которые не учитываются ( образуются если пользователь нажал на инпут выбора  , а после отменил выбор)
+       let nullsCount = string.split('null').length;
+       console.log(nullsCount -1,'count of null')
+       return nullsCount-1;
+    }
+
+    function checkIfNull(wordsCount , nulls, element){ //проверяем если нет фильтров, и удаляем красный макрер
+        if(wordsCount - nulls ==0){
+            element.classList.add('d-none')
+        }
+    }
+
+    function setCondition(key){
+        if(key=='priceMin' && queryObject.priceMin!== ''){
+            showBadge(key);
+        }
+        else if(queryObject[key] && key!=='priceMax'){
+            let wordsCount;
+            showBadge(key);
+
+            if(queryObject[key].includes(';')){
+                wordsCount = queryObject[key].split(';').length;
+                let nulls = getNullsCount(queryObject[key]);
+                childWithBadge.innerHTML =  wordsCount - nulls;
+                checkIfNull(wordsCount, nulls, childWithBadge)
+                console.log('more then 1 word');
+                console.log('more', wordsCount);
+            }
+            else{
+                childWithBadge.innerHTML = 1;
+                console.log('only 1 word');
+            }
+        }
+    }
+
+    function showBadge(key){
+        domElement = document.getElementById(key);//находим по айди родителя, ребенку которого нужен значек
+        childWithBadge = domElement.childNodes[3]; //находим спан к которому крепим значек
+        childWithBadge.classList.remove('d-none');//показываем бейдж красный с кол-вом фильтров
+    }
+
+    function setSortIcons (){
+        for(let key in queryObject){
+            setCondition(key);
+        }
+    }
+
+
+    // desktop functions
+    function sendFetch (){
+        getURLForFetch()
+        let query = localStorage.getItem('sortURL');
+            fetch(globalBaseURL + '/api/products/filter/' + query, {
+                header:{
+                    'Accept': 'application/json',
+                    'X-Requested-With': 'XMLHttpRequest',
+                },
+            })
+            .then(response =>{
+                return response.json()
+            })
+            .then(data=>{
+            let parentProducts = document.querySelector('#ProductsList');
+            if( parentProducts.childElementCount >= 1 ){
+                for( let i = 0; i <= parentProducts.childElementCount+1; ++i ){
+                    console.log('remove');
+                    parentProducts.removeChild(parentProducts.firstElementChild);
+                }
+            }
+            if( data.code === 200 ){
+                console.log(data.result)
+                let products = data.result
+<!--                -->
+                    products.map(( product, index )  =>{
+                    let new_product = document.createElement('div');
+                    new_product.classList.add('show_from_opacity', 'col-6', 'col-md-4', 'col-xl-3', 'px-lg-4', 'mb-4', 'mb-md-5', 'card-product', 'p-1')
+                    new_product.innerHTML = `
+                        <a href="http://d196-46-211-244-107.ngrok.io/products/${globalBaseURL}/products/product/${product.product_id}" class="d-flex flex-column pt-3">
+                            <div class="card-image position-relative">
+                                   <img src="http://d196-46-211-244-107.ngrok.io/products/${product.banner}" alt="" class="card-image">
+
+
+
+                            </div>
+                            <div class="card-body p-0 m-0">
+                                <h2 class="primary-black fs-18 fw-600 mt-3">${product.title}</h2>
+                                <h3 class="secondary-dark-gray fs-16 fw-500 mt-0">Калібр ${product.caliber} mm</h3>
+                                <div class="mt-3">
+
+                                    <span class="text-decoration-line-through secondary-dark-gray fs-16 fw-500 mr-3">${product.old_price} грн.</span>
+
+                                    <span class="primary-black fs-20 fw-600">${product.price} грн.</span>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="http://d196-46-211-244-107.ngrok.io/products/${globalBaseURL}/products/product/${product.product_id}" class="primary-green fs-16 fw-500 mb-4 mt-3 d-none justify-content-center align-items-center btn-link text-decoration-underline">Переглянути товар</a>
+                    `
+                    parentProducts.appendChild(new_product)
+                })
+<!--  -->
+
+            }
+
+            })
+    }
+
+    function getURLForFetch(){ //creating URL to send it on backend
+    localStorage.setItem('sortURL', `?category_pk=1&sort=${queryObject.sort}&price=${queryObject.priceMin}-${queryObject.priceMax}&caliber=${queryObject.caliber}&weapon__type=${queryObject.weapon__type}`);
+        console.log(localStorage.getItem('sortURL'));
+   }
+
+    function showPriceInputs(){
+        priceInputs.classList.toggle('d-none')
+    }
+
+    function checkValue(value, key){ //cheking for repeating values
+
+         if(queryObject[key].includes(value)){
+            return null;
+        }
+        else {
+            return value;
+        }
+        return value;
+    }
+
+    function addQuery (e){
+        let key = e.target.classList[1];
+        let value = e.target.value;
+       /*  addQueryToQueryList(value, key);  //adding query to DOM, and checking for repeating values */
+
+        if(key == 'sort'){ /* adding a sort query */
+            getSelectedValue(key);
+            queryObject[key] = value;
+        }
+
+        else if(key == 'apply'){  /* adding a price query */
+            addQueryToQueryList (value, key);
+            queryObject.priceMin = priceMin.value;
+            queryObject.priceMax = priceMax.value;
+            showPriceInputs();
+        }
+        else if(queryObject[key]){ /* adding any others query if they already was in queryObject */
+            getSelectedValue(key);
+            queryObject[key] =  queryObject[key] + ';' + checkValue(value, key);
+        }
+        else{ /* adding any others query if they wasnt in queryObject */
+            getSelectedValue(key);
+            queryObject[key] = value;
+        }
+
+        console.log('4back',queryObject);
+        getURLForFetch();
+        sendFetch();
+
+    }
+
+    function getSelectedValue(key){
+        let selectDomLink = document.querySelector(`.${key}`);
+        let selectDomLinkText = selectDomLink.options[selectDomLink.selectedIndex].text;
+        if(key == 'sort'){ /* adding a sort query */
+            queryObjectForQueryList[key] = selectDomLinkText;
+
+        }
+        else if(queryObjectForQueryList[key]){
+            queryObjectForQueryList[key] =  queryObjectForQueryList[key] + ';' + checkValue(selectDomLinkText, key);
+        }
+        else{
+            queryObjectForQueryList[key] = selectDomLinkText;
+        }
+        addQueryToQueryList(selectDomLinkText, key);  //adding query to DOM, and checking for repeating values
+
+        console.log('new obj',queryObjectForQueryList);
+      /*   console.log('key',key)
+        console.log('text',selectDomLinkText);
+        */
+    }
+
+    function addQueryToQueryList (value, key){
+
+        if(key == 'apply'){ /* adding a price query  to DOM */
+            console.log('price')
+            removeQuery(previousPriceQuery);
+            queryList.insertAdjacentHTML('afterBegin',
+            `<div class="query__wrapp mr-3 d-flex align-items-center" id=${Date.now()}> <span class="primary-black mr-2 mb-0 test pb-1 query selectedPrice">${priceMin.value} - ${priceMax.value} </span><img src="../static/assets/img/icons/Cancel.svg" alt="cancel" width="16px" height="16px" onclick="removeQueryWithEvent(event)" id=${Date.now()} ></div>` )
+            previousPriceQuery = document.querySelector('.selectedPrice').parentNode.id;
+            console.log('!!!',previousPriceQuery);
+        }
+
+        else if(queryObject[key].includes(value)){ /* if value already are in qyeryObject */
+            console.log('est')
+            return
+        }
+
+        else if(key == 'sort'){
+        removeQuery(previousSortQuery);
+        queryList.insertAdjacentHTML('afterBegin',
+        `<div class="query__wrapp mr-3 d-flex align-items-center" id=${Date.now()}> <span class="primary-black mr-2 mb-0 test pb-1 query selectedSort ">${value}</span><img src="../static/assets/img/icons/Cancel.svg" alt="cancel" width="16px" height="16px" onclick="removeQueryWithEvent(event)" id=${Date.now()} ></div>` )
+        previousSortQuery = document.querySelector('.selectedSort').parentNode.id;
+        }
+
+        else {
+        queryList.insertAdjacentHTML('afterBegin',
+        `<div class="query__wrapp mr-3 d-flex align-items-center" id=${Date.now()}> <span class="primary-black mr-2 mb-0 test pb-1 query">${value}</span><img src="../static/assets/img/icons/Cancel.svg" alt="cancel" width="16px" height="16px" onclick="removeQueryWithEvent(event)" id=${Date.now()} ></div>` )
+        console.log('else')
+        }
+
+    }
+
+    function removeQuery(id){  //remove query from DOM
+        let uniqueQuery = document.getElementById(id);
+        if(uniqueQuery){
+        uniqueQuery.remove();
+        console.log('222');
+        }
+        else{
+            return
+        }
+        getURLForFetch();
+    }
+
+    function removeQueryWithEvent(event){
+        let uniqueQuery = document.getElementById(event.target.id);
+        uniqueQuery.remove();
+        let queryFromDom = uniqueQuery.childNodes[1].innerHTML;
+
+        for (key in queryObject) {
+            if(queryObjectForQueryList[key].includes(queryFromDom)){
+                let select = document.querySelector(`.${key}`);
+                select.options[0].selected = true; // set option value as default after deleting some query from DOM
+                console.log(select.options[0].selected)
+                findIndex(queryObjectForQueryList, key, queryFromDom);
+                let newQuery =  queryObjectForQueryList[key].replace(queryFromDom, null);
+                queryObjectForQueryList[key] = newQuery;
+            }
+        }
+        if(uniqueQuery.childNodes[1].classList.value.indexOf('selectedPrice')>0){
+                queryObject.priceMin = '';
+                queryObject.priceMax = '';
+            }
+        console.log('new obj',queryObjectForQueryList);
+        console.log('4 back',queryObject);
+        getURLForFetch();
+
+    }
+
+    function findIndex ( obj, key, text){ //remove query from url for backend by index of name in  queryObjectForQueryList
+        let queryArr = obj[key].split(';');
+        let index = queryArr.indexOf(text);
+        let newQueryForBackEnd = queryObject[key].split(';');
+        newQueryForBackEnd[index] = 'null';
+        queryObject[key] =  newQueryForBackEnd.join(';');
+
+    }
+
+    function clearSelects( DOMLink ){
+        DOMLink.options.selectedIndex = 0;
+    }
+
+    function clearDOMQuerys(){ //deleting all query from DOM
+        let children = document.querySelectorAll('.query__wrapp');
+        for(let i = 0; i<children.length; i++){
+            children[i].remove();
+        }
+    }
+
+    function clearQueryPc(){ //clear all selects and inputs
+        searchInp.value = '';
+        priceMin.value = 1;
+        priceMax.value = 1;
+        clearSelects(caliber);
+        clearSelects(weapon__type);
+        clearSelects(sort);
+        clearDOMQuerys();
+        queryObject = {
+            sort: '',
+            priceMin: '',
+            priceMax: '',
+            caliber: '',
+            weapon__type: '',
+        };
+        queryObjectForQueryList = {
+            sort: '',
+            priceMin: '',
+            priceMax: '',
+            caliber: '',
+            weapon__type: '',
+        };
+        queryForm.classList.add('hide');
+    }
+
+
+
+    </script>
+
+<!-- <script>-->
+<!--        //айди у типа сортировки должен совпадать с ключем объекта запросов сортировки!!! (мобайл версия)-->
+<!--        /*<div class="d-flex align-items-center justify-content-center" id="caliber">-->
+<!--        <p class="fs-20 fw-400 primary-black m-0" >Калібр</p>-->
+<!--         let queryObject = {-->
+<!--            caliber: ''-->
+<!--        };*/-->
+<!--    localStorage.clear();-->
+
+<!--    let sort = document.querySelector('.sort');-->
+<!--    let priceMin = document.querySelector('.min__price');-->
+<!--    let priceMax = document.querySelector('.max__price');-->
+<!--    let caliber = document.querySelector('.caliber');-->
+<!--    let weapon__type = document.querySelector('.weapon__type');-->
+<!--    let queryList = document.querySelector('.queryList');-->
+<!--    let priceInputs = document.querySelector('.priceInputs');-->
+<!--    let queryForm = document.querySelector('.query__form');-->
+<!--    let searchInp = document.querySelector('.search-inp');-->
+
+<!--    let filterAndSort = document.querySelector('.filterAndSort');-->
+<!--    let priceMinMobile = document.querySelector('.min__price__mobile');-->
+<!--    let priceMaxMobile  = document.querySelector('.max__price__mobile');-->
+<!--    let customCheckBoxes = document.querySelectorAll('.custom-checkbox-gift')-->
+<!--    let isChecked;-->
+
+<!--    let sorlList = document.querySelectorAll('.sorl-list span.badge');-->
+<!--    let domElement;-->
+<!--    let childWithBadge;-->
+
+<!--    let queryObject = {-->
+<!--        sort: '',-->
+<!--        priceMin: '',-->
+<!--        priceMax: '',-->
+<!--        caliber: '',-->
+<!--        weapon__type: '',-->
+<!--    };-->
+
+<!--    let queryObjectForQueryList = {-->
+<!--        sort: '',-->
+<!--        priceMin: '',-->
+<!--        priceMax: '',-->
+<!--        caliber: '',-->
+<!--        weapon__type: '',-->
+<!--    };-->
+
+<!--    let previousSortQuery; // get id of sort query to delete it when the other sort query is selected-->
+<!--    let previousPriceQuery; // get id of price query to delete it when the other sort query is selected-->
+
+<!--    //search via input-->
+<!--    function searchItems (e){-->
+<!--        let queryFromInput = e.target.value;-->
+<!--        if(queryFromInput.length <3){-->
+<!--            queryForm.classList.add('hide');-->
+<!--        }-->
+<!--        else if(queryFromInput.length >=3){-->
+<!--            queryForm.classList.remove('hide');-->
+<!--            sendFetch ();-->
+<!--            return queryFromInput;-->
+<!--        }-->
+<!--    }-->
+
+
+<!--    let test = 5;-->
+<!--    // mobile functions-->
+<!--    function addQueryMobile (e){-->
+<!--        key = e.target.parentNode.parentNode.classList[0];-->
+<!--        value = e.target.value;-->
+<!--        keyForPrice = e.target.classList[0];-->
+
+<!--        if(e.target.parentNode.parentNode.classList[0] == 'sort'){/* adding a sort query */-->
+<!--            value = e.target.innerHTML;-->
+<!--            queryObject[key] = value;-->
+<!--        }-->
+<!--        else if(keyForPrice == 'btn'){  /* adding a price query */-->
+<!--            queryObject.priceMin = priceMinMobile.value;-->
+<!--            queryObject.priceMax = priceMaxMobile.value;-->
+<!--        }-->
+<!--        else if(queryObject[key]){-->
+<!--            isChecked = document.getElementById(e.target.id).checked;/* adding a caliber or weapon__type query if they already was in queryObj */-->
+<!--            queryObject[key] =  queryObject[key] + ', ' + checkValue(value, key);-->
+<!--            removeCheckedValue(value,key,isChecked);-->
+<!--        }-->
+<!--        else{-->
+<!--            isChecked = document.getElementById(e.target.id).checked;-->
+<!--            queryObject[key] =  value;-->
+<!--        }-->
+<!--        console.log('mobile',queryObject)-->
+<!--    }-->
+
+<!--    function removeCheckedValue (value, key, isChecked){ //delete string from query if user checked input two times-->
+<!--        if(!isChecked){-->
+<!--            let newQuery =  queryObject[key].replace(value, null);-->
+<!--            queryObject[key] = newQuery;-->
+<!--        }-->
+
+<!--    }-->
+
+<!--    function clearQuery(){-->
+<!--        customCheckBoxes.forEach(element => {-->
+<!--           element.checked = false;-->
+<!--        });-->
+<!--        priceMinMobile.value = 1;-->
+<!--        priceMaxMobile.value = 1;-->
+<!--        queryObject = {-->
+<!--            sort: '',-->
+<!--            priceMin: '',-->
+<!--            priceMax: '',-->
+<!--            caliber: '',-->
+<!--            weapon__type: '',-->
+<!--        };-->
+<!--        sorlList.forEach(element => {-->
+<!--            element.classList.add('d-none');-->
+<!--        });-->
+<!--        console.log(queryObject);-->
+<!--    }-->
+
+<!--    function getNullsCount (string){  //получить кол-во нулей, которые не учитываются ( образуются если пользователь нажал на инпут выбора  , а после отменил выбор)-->
+<!--       let nullsCount = string.split('null').length;-->
+<!--       console.log(nullsCount -1,'count of null')-->
+<!--       return nullsCount-1;-->
+<!--    }-->
+
+<!--    function checkIfNull(wordsCount , nulls, element){ //проверяем если нет фильтров, и удаляем красный макрер-->
+<!--        if(wordsCount - nulls ==0){-->
+<!--            element.classList.add('d-none')-->
+<!--        }-->
+<!--    }-->
+
+<!--    function setCondition(key){-->
+<!--        if(key=='priceMin' && queryObject.priceMin!== ''){-->
+<!--            showBadge(key);-->
+<!--        }-->
+<!--        else if(queryObject[key] && key!=='priceMax'){-->
+<!--            let wordsCount;-->
+<!--            showBadge(key);-->
+
+<!--            if(queryObject[key].includes(',')){-->
+<!--                wordsCount = queryObject[key].split(',').length;-->
+<!--                let nulls = getNullsCount(queryObject[key]);-->
+<!--                childWithBadge.innerHTML =  wordsCount - nulls;-->
+<!--                checkIfNull(wordsCount, nulls, childWithBadge)-->
+<!--                console.log('more then 1 word');-->
+<!--                console.log('more', wordsCount);-->
+<!--            }-->
+<!--            else{-->
+<!--                childWithBadge.innerHTML = 1;-->
+<!--                console.log('only 1 word');-->
+<!--            }-->
+<!--        }-->
+<!--    }-->
+
+<!--    function showBadge(key){-->
+<!--        domElement = document.getElementById(key);//находим по айди родителя, ребенку которого нужен значек-->
+<!--        childWithBadge = domElement.childNodes[3]; //находим спан к которому крепим значек-->
+<!--        childWithBadge.classList.remove('d-none');//показываем бейдж красный с кол-вом фильтров-->
+<!--    }-->
+
+<!--    function setSortIcons (){-->
+<!--        for(let key in queryObject){-->
+<!--            setCondition(key);-->
+<!--        }-->
+<!--    }-->
+
+
+<!--    // desktop functions-->
+<!--      function sendFetch (){-->
+<!--        let query = localStorage.getItem('sortURL');-->
+<!--      /*   let response = await fetch('url',query ); */-->
+<!--    }-->
+
+<!--    function getURLForFetch(){ //creating URL to send it on backend-->
+<!--    localStorage.setItem('sortURL', `<url>?sort=${queryObject.sort}&price=${queryObject.priceMin},${queryObject.priceMax}&caliber=${queryObject.caliber}&weapon__type=${queryObject.weapon__type}`);-->
+<!--     console.log(localStorage.getItem('sortURL'));-->
+<!--}-->
+
+<!--    function showPriceInputs(){-->
+<!--        priceInputs.classList.toggle('d-none')-->
+<!--    }-->
+
+<!--    function checkValue(value, key){ //cheking for repeating values-->
+
+<!--         if(queryObject[key].includes(value)){-->
+<!--            return null;-->
+<!--        }-->
+<!--        else {-->
+<!--            return value;-->
+<!--        }-->
+<!--        return value;-->
+<!--    }-->
+
+<!--    function addQuery (e){-->
+<!--        let key = e.target.classList[1];-->
+<!--        let value = e.target.value;-->
+<!--       /*  addQueryToQueryList(value, key);  //adding query to DOM, and checking for repeating values */-->
+
+<!--        if(key == 'sort'){ /* adding a sort query */-->
+<!--            getSelectedValue(key);-->
+<!--            queryObject[key] = value;-->
+<!--        }-->
+
+<!--        else if(key == 'apply'){  /* adding a price query */-->
+<!--            addQueryToQueryList (value, key);-->
+<!--            queryObject.priceMin = priceMin.value;-->
+<!--            queryObject.priceMax = priceMax.value;-->
+<!--            showPriceInputs();-->
+<!--        }-->
+<!--        else if(queryObject[key]){ /* adding any others query if they already was in queryObject */-->
+<!--            getSelectedValue(key);-->
+<!--            queryObject[key] =  queryObject[key] + ',' + checkValue(value, key);-->
+<!--        }-->
+<!--        else{ /* adding any others query if they wasnt in queryObject */-->
+<!--            getSelectedValue(key);-->
+<!--            queryObject[key] = value;-->
+<!--        }-->
+
+<!--        console.log('4back',queryObject);-->
+<!--        getURLForFetch();-->
+<!--        sendFetch ();-->
+
+<!--    }-->
+
+<!--    function getSelectedValue(key){-->
+<!--        let selectDomLink = document.querySelector(`.${key}`);-->
+<!--        let selectDomLinkText = selectDomLink.options[selectDomLink.selectedIndex].text;-->
+<!--        if(key == 'sort'){ /* adding a sort query */-->
+<!--            queryObjectForQueryList[key] = selectDomLinkText;-->
+
+<!--        }-->
+<!--        else if(queryObjectForQueryList[key]){-->
+<!--            queryObjectForQueryList[key] =  queryObjectForQueryList[key] + ',' + checkValue(selectDomLinkText, key);-->
+<!--        }-->
+<!--        else{-->
+<!--            queryObjectForQueryList[key] = selectDomLinkText;-->
+<!--        }-->
+<!--        addQueryToQueryList(selectDomLinkText, key);  //adding query to DOM, and checking for repeating values-->
+
+<!--        console.log('new obj',queryObjectForQueryList);-->
+<!--      /*   console.log('key',key)-->
+<!--        console.log('text',selectDomLinkText);-->
+<!--        */-->
+<!--    }-->
+
+<!--    function addQueryToQueryList (value, key){-->
+
+<!--        if(key == 'apply'){ /* adding a price query  to DOM */-->
+<!--            console.log('price')-->
+<!--            removeQuery(previousPriceQuery);-->
+<!--            queryList.insertAdjacentHTML('afterBegin',-->
+<!--            `<div class="query__wrapp mr-3 d-flex align-items-center" id=${Date.now()}> <span class="primary-black mr-2 mb-0 test pb-1 query selectedPrice">${priceMin.value} - ${priceMax.value} </span><img src="/static/assets/img/icons/Cancel-blck.svg" alt="cancel" width="16px" height="16px" onclick="removeQueryWithEvent(event)" id=${Date.now()} ></div>` )-->
+<!--            previousPriceQuery = document.querySelector('.selectedPrice').parentNode.id;-->
+<!--            console.log('!!!',previousPriceQuery);-->
+<!--        }-->
+
+<!--        else if(queryObject[key].includes(value)){ /* if value already are in qyeryObject */-->
+<!--            console.log('est')-->
+<!--            return-->
+<!--        }-->
+
+<!--        else if(key == 'sort'){-->
+<!--        removeQuery(previousSortQuery);-->
+<!--        queryList.insertAdjacentHTML('afterBegin',-->
+<!--        `<div class="query__wrapp mr-3 d-flex align-items-center" id=${Date.now()}> <span class="primary-black mr-2 mb-0 test pb-1 query selectedSort ">${value}</span><img src="/static/assets/img/icons/Cancel-blck.svg" alt="cancel" width="16px" height="16px" onclick="removeQueryWithEvent(event)" id=${Date.now()} ></div>` )-->
+<!--        previousSortQuery = document.querySelector('.selectedSort').parentNode.id;-->
+<!--        }-->
+
+<!--        else {-->
+<!--        queryList.insertAdjacentHTML('afterBegin',-->
+<!--        `<div class="query__wrapp mr-3 d-flex align-items-center" id=${Date.now()}> <span class="primary-black mr-2 mb-0 test pb-1 query">${value}</span><img src="/static/assets/img/icons/Cancel-blck.svg" alt="cancel" width="16px" height="16px" onclick="removeQueryWithEvent(event)" id=${Date.now()} ></div>` )-->
+<!--        console.log('else')-->
+<!--        }-->
+
+<!--    }-->
+
+<!--    function removeQuery(id){  //remove query from DOM-->
+<!--        let uniqueQuery = document.getElementById(id);-->
+<!--        if(uniqueQuery){-->
+<!--        uniqueQuery.remove();-->
+<!--        console.log('222');-->
+<!--        }-->
+<!--        else{-->
+<!--            return-->
+<!--        }-->
+<!--        getURLForFetch();-->
+<!--    }-->
+
+<!--    function removeQueryWithEvent(event){-->
+<!--        let uniqueQuery = document.getElementById(event.target.id);-->
+<!--        uniqueQuery.remove();-->
+<!--        let queryFromDom = uniqueQuery.childNodes[1].innerHTML;-->
+
+<!--        for (key in queryObject) {-->
+<!--            if(queryObjectForQueryList[key].includes(queryFromDom)){-->
+<!--                let select = document.querySelector(`.${key}`);-->
+<!--                select.options[0].selected = true;-->
+<!--                findIndex(queryObjectForQueryList, key, queryFromDom);-->
+<!--                let newQuery =  queryObjectForQueryList[key].replace(queryFromDom, null);-->
+<!--                queryObjectForQueryList[key] = newQuery;-->
+<!--            }-->
+<!--        }-->
+<!--        if(uniqueQuery.childNodes[1].classList.value.indexOf('selectedPrice')>0){-->
+<!--                queryObject.priceMin = '';-->
+<!--                queryObject.priceMax = '';-->
+<!--            }-->
+<!--        console.log('new obj',queryObjectForQueryList);-->
+<!--        console.log('4 back',queryObject);-->
+<!--        getURLForFetch();-->
+
+<!--    }-->
+
+<!--    function findIndex ( obj, key, text){ //remove query from url for backend by index of name in  queryObjectForQueryList-->
+<!--       let queryArr = obj[key].split(';');-->
+<!--        let index = queryArr.indexOf(text);-->
+<!--        let newQueryForBackEnd = queryObject[key].split(';');-->
+<!--        newQueryForBackEnd[index] = 'null';-->
+<!--        queryObject[key] =  newQueryForBackEnd.join(';');-->
+
+<!--    }-->
+
+<!--    function clearSelects( DOMLink ){-->
+<!--        DOMLink.options.selectedIndex = 0;-->
+<!--    }-->
+
+<!--    function clearDOMQuerys(){ //deleting all query from DOM-->
+<!--        let children = document.querySelectorAll('.query__wrapp');-->
+<!--        for(let i = 0; i<children.length; i++){-->
+<!--            children[i].remove();-->
+<!--        }-->
+<!--    }-->
+
+<!--    function clearQueryPc(){ //clear all selects and inputs-->
+<!--        searchInp.value = '';-->
+<!--        priceMin.value = 1;-->
+<!--        priceMax.value = 1;-->
+<!--        clearSelects(caliber);-->
+<!--        clearSelects(weapon__type);-->
+<!--        clearSelects(sort);-->
+<!--        clearDOMQuerys()-->
+<!--        queryObject = {-->
+<!--            sort: '',-->
+<!--            priceMin: '',-->
+<!--            priceMax: '',-->
+<!--            caliber: '',-->
+<!--            weapon__type: '',-->
+<!--        };-->
+<!--        queryObjectForQueryList = {-->
+<!--            sort: '',-->
+<!--            priceMin: '',-->
+<!--            priceMax: '',-->
+<!--            caliber: '',-->
+<!--            weapon__type: '',-->
+<!--        };-->
+<!--    }-->
+
+
+<!--    </script>-->
+<style>
+    select:focus{
+        box-shadow: 0 0 1px #565454;
+    }
+</style>
+
+
+
+  <footer class="container-fluid bg-secondary-dark-grey mt-4">
+    <div class="row">
+      <div class="col-12 col-lg-2 col-xl-2">
+        <img class="mt-5 d-flex d-lg-none d-xl-none d-sm-none mx-auto" src="../static/assets/img/icons/logo_footer.svg" alt="">
+        <img class="mt-5 d-none d-lg-flex d-xl-flex d-sm-flex ml-5" src="../static/assets/img/icons/logo_footer.svg" alt="">
+      </div>
+      <div class="col-5 col-lg-2 col-xl-2 col-sm-3">
+        <h5 class="primary-white fw-600 mt-5">Каталог</h5>
+        <ul class="p-0 list-group mt-5 ">
+            
+          <li class="mb-3"><a href="1" class="fs-16 fw-500 primary-white primary-white-hover">Глушники</a></li>
+            
+          <li class="mb-3"><a href="2" class="fs-16 fw-500 primary-white primary-white-hover">Полум&#x27;ягасники</a></li>
+            
+          <li class="mb-3"><a href="3" class="fs-16 fw-500 primary-white primary-white-hover">Планки</a></li>
+            
+          <li class="mb-3"><a href="4" class="fs-16 fw-500 primary-white primary-white-hover">Аксесуари</a></li>
+            
+        </ul>
+      </div>
+      <div class="col-7 col-lg-2 col-xl-2 col-sm-2">
+        <a href="../about-us/index.html" class="h5 primary-white fw-600 mt-5 d-flex no-hover">Про нас</a>
+        <ul class="p-0 list-group mt-5 ">
+          <li class="mb-3"><a href="../about-us/index.html#history" class="fs-16 fw-500 primary-white primary-white-hover">Наша історія</a></li>
+          <li class="mb-3"><a href="../about-us/index.html#FAQ" class="fs-16 fw-500 primary-white primary-white-hover">Запитання та відповіді</a></li>
+        </ul>
+      </div>
+      <div class="col-5 col-lg-2 col-xl-2 col-sm-2">
+        <a href="../news/index.html" class="h5 primary-white fw-600 mt-5 d-flex no-hover">Блог</a>
+        <ul class="p-0 list-group mt-5 ">
+          <li class="mb-3"><a href="../news/index.html" class="fs-16 fw-500 primary-white primary-white-hover">Наш блог</a></li>
+        </ul>
+      </div>
+      <div class="col-7 col-lg-3 col-xl-3 col-sm-5">
+        <h5 class="primary-white fw-600 mt-5">Контакти</h5>
+        <ul class="p-0 list-group mt-5 ">
+          <li class="mb-3"><a href="mailto:broniamykolaiv@gmail.com" class="fs-16 fw-500 primary-white primary-white-hover">
+            <img src="../static/assets/img/icons/Mail.svg" class="pr-2" alt=""> broniamykolaiv@gmail.com</a></li>
+          <li class="mb-3"><a href="tel:+380681328790" class="fs-16 fw-500 primary-white primary-white-hover">
+            <img src="../static/assets/img/icons/Phone.svg" class="pr-2"  alt=""> +38 (068) 132-87-90</a></li>
+        </ul>
+      </div>
+      <hr class="d-flex d-xl-none d-lg-none d-sm-none dropdown-divider w-100 m-3">
+      <div class="d-sm-none col-4 col-lg-1 col-xl-1 col-sm-0">
+        <ul class="p-0 list-group mt-2 mt-lg-5 d-flex flex-row flex-lg-column flex-xl-column flex-sm-column mr-4">
+          <li class="mb-3  d-flex justify-content-end pr-3"><a href="1" class="fs-16 primary-white primary-white-hover">
+            <img src="../static/assets/img/icons/Facebook.svg" alt=""></a>
+          </li>
+          <li class="mb-3  d-flex justify-content-end pr-3"><a href="tel:+380681328790" class="fs-16 primary-white primary-white-hover">
+            <img src="../static/assets/img/icons/Instagram.svg" alt=""></a>
+          </li>
+        </ul>
+      </div>
+      <hr class="d-none d-xl-flex d-lg-flex d-sm-flex dropdown-divider w-100">
+      <div class="col-8 col-xl-12 col-lg-12 col-sm-12 flex-column">
+        <p class="primary-white fs-14 fw-500 w-100 text-center p-3">2022 “БРОНЯ МИКОЛАЇВ”. Всі права захищені.</p>
+      </div>
+    </div>
+  </footer>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+  <!--SplideJS-->
+    <script src="../static/assets/js/splide.min.js"></script>
+
+  <!--Mobile carousel swipe opportunity added -->
+  <script>
+
+    let sumShoping = document.querySelector('.sum-shoping');
+    let sumShopingPc = document.querySelector('.sum-shopingPc');
+    let priceShoping =document.querySelectorAll('.price-shoping');
+    let priceShopingPc =document.querySelectorAll('.price-shopingPc');
+    let finalPrice = 0;
+    let finalPricePc = 0;
+
+    let modal = document.querySelector('.modal__wrapp');
+
+
+    function getPrice (){
+        priceShoping.forEach(element => {
+            finalPrice +=(+element.innerHTML);
+            return finalPrice;
+        });
+        sumShoping.innerHTML = finalPrice + 'грн';
+        return finalPrice;
+    }
+
+    function getPricePc (){
+        finalPricePc = 0;
+        let carts = document.querySelectorAll('.card__product').length;
+        for( let i = 0; i< carts; i++){
+            let valueInput = document.querySelectorAll('.card__product input')[i].value;
+            let priceProduct = document.querySelectorAll('.card__product .price-shopingPc')[i].innerText;
+
+            finalPricePc += valueInput * priceProduct;
+            sumShopingPc.innerHTML = finalPricePc + 'грн';
+            }
+
+        return finalPricePc;
+    }
+        getPrice ();
+        getPricePc ();
+
+        function changeValueWithFetch(url, action){
+        console.log('fetch')
+                fetch(globalBaseURL + `${url}&action=${action}`, {
+                    header:{
+                        'Accept': 'application/json',
+                        'X-Requested-With': 'XMLHttpRequest',
+                    },
+                })
+<!--                .then(response=>{-->
+<!--                    return response.json()-->
+<!--                }).then(data=>{-->
+<!--                })-->
+        }
+        function plus (e){
+            id = e.target.parentNode.parentNode.childNodes[1].id;
+            let link = document.getElementById(`${id}`);
+            link.value ++;
+            console.log('test');
+            }
+
+        function minus (e){
+            id = e.target.parentNode.parentNode.childNodes[1].id;
+            let link = document.getElementById(`${id}`);
+            console.log(id)
+
+            if(link.value<=1){
+                return 0;
+            }
+            else{
+                link.value --;
+            }
+        }
+
+
+
+   function showHideModal(){
+      modal.classList.toggle('d-flex');
+      modal.classList.toggle('d-none');
+   }
+
+
+    $(".carousel").on("touchstart", function(event){
+         var xClick = event.originalEvent.touches[0].pageX;
+     $(this).one("touchmove", function(event){
+         var xMove = event.originalEvent.touches[0].pageX;
+         if( Math.floor(xClick - xMove) > 5 ){
+             $(this).carousel('next');
+         }
+         else if( Math.floor(xClick - xMove) < -5 ){
+             $(this).carousel('prev');
+         }
+     });
+     $(".carousel").on("touchend", function(){
+             $(this).off("touchmove");
+     });
+ });
+</script>
+  </body>
+</html>

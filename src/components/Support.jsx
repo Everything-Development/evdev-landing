@@ -25,7 +25,7 @@ const Support = (props) => {
               initial={{ opacity: 0, scale: 3, x: 400}}
               whileInView={{ opacity: 1, scale: 1, x: 0}}
               viewport={{ once: true }}
-              className='main-section-visual-elem'
+              className='main-section-visual-elem desktopV'
               transition={{
                   type: "spring",
                   duration: 2,
@@ -41,7 +41,7 @@ const Support = (props) => {
             initial={{ opacity: 0, scale: 1, x: -200}}
             whileInView={{ opacity: 1, scale: 1, x: 0}}
             viewport={{ once: true }}
-            className='support-section-title'
+            className='support-section-title desktopV'
             transition={{
                 type: "spring",
                 duration: 2,

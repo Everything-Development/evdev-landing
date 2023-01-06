@@ -1,16 +1,32 @@
 import React from 'react'
-import cursor1 from '../assets/pointer/part1.svg'
-import cursor2 from '../assets/pointer/part2.svg'
-import cursor3 from '../assets/pointer/part3.svg'
-import full_cursor from '../assets/pointer/full.svg'
+import cursor from '../assets/pointer/pointer.png'
 import '../styles/Cursor.scss'
 
+function getWindowDimensions() {
+  const { innerWidth: width, innerHeight: height } = window;
+  return {
+    width,
+    height
+  };
+}
+
+
 const Cursor = (props) => {
-  console.log(props)
+  const [windowDimensions, setWindowDimensions] = React.useState(getWindowDimensions());
+
   return (
-    <div className='cursor-elem' style={{position: 'fixed', zIndex: "1000", marginTop: `${props.cursorY}px`, marginLeft: `${props.cursorX}px`}}>
+    <>
+        {
+      windowDimensions.width <= 600 ?
+      <></>
+      :
+      <div style={{zIndex: '100000', pointerEvents: 'none', backgroundPosition: 'left', height: '150px', width: '150px', scale: '0.5', backgroundImage: `url(${cursor})`, position: 'fixed', marginTop: `${props.cursorY-60}px`, marginLeft: `${props.cursorX-60}px`}}>
+      {/* <img src={cursor} style={{height: '100px', marginLeft: '-45px', marginTop: '-45px', zIndex: "10000"}}/> */}
       
-    </div>
+      </div>
+    }
+    </>
+
   )
 }
 

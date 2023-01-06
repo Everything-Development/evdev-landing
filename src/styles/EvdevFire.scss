@@ -1,0 +1,44 @@
+.evdev-fire-element {
+    position: absolute;
+    width: 528.74px;
+    height: 43.92px;
+    left: 1543.33px;
+    top: 902.6px;
+    .elem3 {
+        position: absolute;
+        width: 419.54px;
+        height: 31.39px;
+        left: 10.38px;
+        top: 34.1px;
+
+        background: linear-gradient(271.39deg, rgba(255, 80, 1, 0) 23.47%, #FF5001 63.08%, #FF5001 63.08%);
+        mix-blend-mode: color-dodge;
+        filter: blur(10px);
+        transform: matrix(0.95, -0.01, -0.35, -1, 0, 0);
+    }
+    .elem2 {
+        position: absolute;
+        width: 228.48px;
+        height: 40.34px;
+        left: 17.74px;
+        top: 43.92px;
+
+        background: linear-gradient(56.83deg, #E9C600 4.92%, rgba(233, 198, 0, 0) 92.69%);
+        mix-blend-mode: color-dodge;
+        filter: blur(13.4146px);
+        transform: matrix(1, -0.01, -0.01, -1, 0, 0);
+    }
+    .elem1 {
+        position: absolute;
+        width: 419.54px;
+        height: 31.39px;
+        left: 10.38px;
+        top: 34.1px;
+
+        background: linear-gradient(271.39deg, rgba(255, 80, 1, 0) 23.47%, #FF5001 63.08%, #FF5001 63.08%);
+        mix-blend-mode: color-dodge;
+        filter: blur(10px);
+        transform: matrix(0.95, -0.01, -0.35, -1, 0, 0);
+    }
+
+}

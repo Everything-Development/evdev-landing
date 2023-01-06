@@ -43,23 +43,23 @@
                 @include gotham-font(90px, "medium");
                 @include text-gradient;
                 animation: evdev-fire 1s forwards;
-                animation-delay: 1.5s;
+                animation-delay: 4s;
                 transform: scale(0); 
                 z-index: 1000;
             }
             .animated-text-nodelay {
                 animation: letter-appering 0.7s forwards;
-                animation-delay: 0.1s;
+                animation-delay: 2.6s;
                 height: 0px;                 
             }
             .animated-text-02sdelay{
                 animation: letter-appering 0.7s forwards;
-                animation-delay: 0.2s;
+                animation-delay: 2.7s;
                 height: 0px; 
             }
             .animated-text-04sdelay{
                 animation: letter-appering 0.7s forwards;
-                animation-delay: 0.4s;
+                animation-delay: 2.9s;
                 height: 0px; 
             }
         }
@@ -72,9 +72,14 @@
         margin-top:-250px;
         height: 400px;
         width: 450px;
+        mix-blend-mode: lighten;
+        -webkit-mix-blend-mode: lighten;
         .visual-elem-video{
             height: 600px;
             height: 600px;
+            mix-blend-mode: lighten;
+            -webkit-mix-blend-mode: lighten;
+
 
         }
     }
@@ -115,6 +120,10 @@
 
 .projects-button-container:hover .pyramid-image{
     transform: rotate(10deg);
+}
+
+.pyramid-image{
+    height: 170px !important;
 }
 
 
@@ -193,11 +202,12 @@
             height: 350px;
             top: 150px;
             right: 0px;
+            mix-blend-mode: lighten;
+            -webkit-mix-blend-mode: lighten;
             .visual-elem-video{
                 width: 350px;
-
-
-    
+                mix-blend-mode: lighten;
+                -webkit-mix-blend-mode: lighten;
             }
         }
     }

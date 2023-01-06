@@ -4,12 +4,13 @@
 
 
 .client-section{
-    height: 200vh;
+    height: 1400px;
     width: 100vw;
     margin-top: 200px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    overflow: hidden;
     .clients-section-title{
         margin-top: 200px;
         @include gotham-font(90px);
@@ -22,21 +23,49 @@
 
         /* White */
         color: #FFFFFF;
+        z-index: 1000;
     }
+    .clients-evdev-light{
+        // position: absolute;
+        margin-top: -130px;
+        margin-left: 400px;
+        height: 90px;
+        width: 520px;
+    }
+    // .logos-section{
+    //     display: flex;
+    //     transform: rotate(-15deg);
+    //     width: 100vw;
+
+
+    //     .logos-section-elem{
+    //         width: 100px;
+    //         img {
+    //             transform: rotate(0deg);
+    //             height: 40px;
+    //             margin-left: 50px;
+    //             margin-right: 50px;
+
+    //         }
+    //     }
+
+    // }
+
     .logos-section{
-        // display: flex;
+        display: flex;
         transform: rotate(-15deg);
         width: 100vw;
-        
-
+        margin-top: 200px;
+        transition: 0.1s;
         .logos-section-elem{
-            width: 100px;
-            img {
-                transform: rotate(15deg);
+            img{
+                height: 40px;
+                margin-left:50px;
+                margin-right:50px;
             }
         }
-
     }
+
     .logos-section:nth-child(2){
         margin-top: 100px;
     }
@@ -44,7 +73,7 @@
         margin-top: 50px;
     }
     .logos-section:nth-child(5){
-        margin-top: 100px;
+        margin-top: 150px;
     }
     .top50{
         margin-top:50px;
@@ -54,13 +83,27 @@
     }
 }
 
+
+
+
 @media (max-width: 500px){
     .client-section{
+        
         height: 150vh;
-        width: 97vw;
+        width: 100vw;
         display: flex;
         flex-direction: column;
         align-items: center;
+        overflow: hidden !important;
+        position: relative;
+        .clients-evdev-light{
+            position: absolute;
+            margin-top: 540px;
+            margin-left: 0px !important;
+            height: 60px;
+            width: 300px !important;
+        }
+
         .clients-section-title{
             margin-top: 100px;
             @include gotham-font(45px);
@@ -81,9 +124,11 @@
             
     
             .logos-section-elem{
-                width: 100px;
                 img {
-                    transform: rotate(15deg);
+                    transform: rotate(0deg);
+                    margin-left: 25px;
+                    margin-right: 25px;
+                    
                 }
             }
     
@@ -100,5 +145,9 @@
         .top50{
             margin-top:50px;
         }
+        .top-mobile{
+            margin-top: 100px;
+        }
     }
+    
 }

@@ -40,7 +40,7 @@ const ProjectDevelopment = (props) => {
     },
   ]
   return (
-    <section className="project-development-section">
+    <section className="project-development-section" ref={props.refSection}>
       <motion.div
             initial={{ opacity: 0, scale: 0.8, x: -200}}
             whileInView={{ opacity: 1, scale: 1, x: 0}}
@@ -71,6 +71,18 @@ const ProjectDevelopment = (props) => {
 
           of{props.windowDimensions.width > 500 && <br/>} clients` project develo{props.windowDimensions.width < 500 && <br/>}pment?
         </h4>
+        <motion.img 
+            src={props.evdev_light} 
+            className='project-development-evdev-light'
+            initial={{ opacity: 0, scale: 2, x: 700, width: 0}}
+            whileInView={{ opacity: 1, scale: 1, x: -50, width: 700}}
+            viewport={{ once: true }}
+            transition={{
+                type: "spring",
+                duration: 1.5,
+                delay: 1,
+                }}
+            />
         </motion.div>
         { project_stages_list.map((item, key) =>
         <div>

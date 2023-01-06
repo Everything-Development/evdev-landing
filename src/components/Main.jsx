@@ -1,14 +1,13 @@
 import React, { useRef, useState } from 'react'
 import '../styles/Home.scss'
-import pyramid from '../assets/pyramid.svg'
-import long_rect from '../assets/long_rect.mp4'
+import pyramid from '../assets/arrow_n.png'
 
 import {motion} from 'framer-motion';
 
-const Main = () => {
+const Main = (props) => {
   return (
     <div>
-        <div className="main-section">
+        <div className="main-section" ref={props.refSection}>
           <div className='main-section-text'>
             <div className='main-section-title'>
               
@@ -38,16 +37,17 @@ const Main = () => {
               transition={{
                   type: "spring",
                   duration: 2,
-                  delay: 0.2,
+                  delay: 1.7,
                   
               }}>
-          <video className='visual-elem-video' loop="true" autoplay="true" muted>
-            <source src={long_rect} type="video/mp4"/>
-          Your browser does not support the video tag.
-          </video>
+                {/* <img className='visual-elem-video' src={props.long_rect} /> */}
+              <video className='visual-elem-video' loop="true" autoplay="true" muted>
+                <source src={props.long_rect} type="video/webm"/>
+              Your browser does not support the video tag.
+              </video>
           </motion.div>
         </div>
-      <div className='discover-projects'>
+      <div className='discover-projects' onClick={props.scrollToProjects}>
         <div className='projects-button-container'>
           <img className='pyramid-image' src={pyramid}/>
           <p className='discover-project-title'>DISCOVER PROJECTS</p>

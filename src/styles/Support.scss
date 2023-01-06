@@ -11,16 +11,19 @@
     justify-content: space-between;
     align-items: center;
     height: 100vh;
-    .main-section-visual-elem{
-        position: absolute;
-        left: -250px;
-        height: 500px;
-        width: 500px;
-        .visual-elem-video{
+    @media(min-width: 501px){
+        .main-section-visual-elem{
+            position: absolute;
+            left: -250px;
             height: 500px;
             width: 500px;
+            .visual-elem-video{
+                height: 500px;
+                width: 500px;
+            }
         }
     }
+
     .support-section-title{
         width: 400px;
         text-align: left;

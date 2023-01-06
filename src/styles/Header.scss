@@ -8,6 +8,43 @@
     height: 1px;
     width: $plank-width;
 }
+.header-menu-button{
+    position: fixed;
+    height: 100px;
+    width: 100px;
+    z-index: 5000;
+    .header-menu {
+        position: absolute;
+        @include menu-mixin();
+        margin-left: 58px;
+        margin-top: 38px;
+        transition: 0.3s;
+
+        &:after{
+            content: '';
+            @include menu-mixin(15px);
+            margin-top:4.5px;
+        transition: 0.3s;
+
+        }
+    }
+    .header-menu-x{
+        transition: 0.3s;
+        position: absolute;
+        @include menu-mixin();
+        transform: rotate(45deg);
+        margin-left: 58px;
+        margin-top: 38px;
+        &:after{
+            content: '';
+            @include menu-mixin();
+            // margin-top:4.5px;
+            transform: rotate(90deg);
+            transition: 0.3s;
+
+        }
+    }
+}
 
 header {
     position: fixed;
@@ -17,19 +54,10 @@ header {
     display: flex;
     height: 89px;
     align-items: center;
-    justify-content: space-between;
+    justify-content: right;
     backdrop-filter: blur(5px);
     z-index: 1000;
 
-    .header-menu {
-        @include menu-mixin();
-        margin-left: 58px;
-        &:after{
-            content: '';
-            @include menu-mixin(15px);
-            margin-top:4.5px;
-        }
-    }
 
     .logo {
         height: 18.79px;
@@ -39,24 +67,27 @@ header {
         right: 0;
         transition: 1s;
     }
-    .header-start-cooperation{
-        @include codan-font();
-        @include flex-center(center, row);
-        color: $white-color;
-        width: 250px;
-        margin-right: 58px;
-        &:hover{
-            animation: shake 0.7s linear infinite;
-        }
-        img{
-            margin-right: 12px;
-        }
-        p{
-            letter-spacing: 0.15em;
-        }
-    }
 }
 
+.header-start-cooperation{
+    @include codan-font();
+    @include flex-center(center, row);
+    color: $white-color;
+    width: 250px;
+    position: fixed;
+    right: 58px;
+    top: 23px;
+    z-index: 1005 !important;
+    &:hover{
+        animation: shake 0.7s linear infinite;
+    }
+    img{
+        margin-right: 12px;
+    }
+    p{
+        letter-spacing: 0.15em;
+    }
+}
 
 .fixed-bottom-controls{
     position: fixed;
@@ -109,8 +140,11 @@ header {
     header{
         .header-menu{
             margin-left: 16px;
+            display: none !important;
         }
         .header-start-cooperation{
+            display: none !important;
+
             p{
                 display: none;
             }
@@ -129,6 +163,13 @@ header {
         }
         
         
+    }
+    .header-start-cooperation{
+        display: none !important;
+    }
+    .header-menu-button {
+        display: none !important;
+
     }
     
 }

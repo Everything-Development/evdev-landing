@@ -5,14 +5,18 @@
 
 .projects-section {
     width: 100vw; 
-    overflow-x: hidden;
-
+    overflow-y: hidden;
+    position: relative;
+    
     .projects-title-container{
         width: 1160px;
         margin-left: auto;
         margin-right: auto;
         display: flex;
         justify-content: flex-end;
+        z-index: 800;
+        position: relative;
+
         h3{
             width: 850px;
             @include gotham-font(90px);
@@ -22,15 +26,31 @@
             letter-spacing: 0.1em;
             text-transform: uppercase;
             color: #FFFFFF;
+            z-index: 1001;
+
+
             .evdev-gradient{
                 @include text-gradient();
+            z-index: 1001;
+
+
             }
         }  
+        
     }
+
+    .projects-evdev-light{
+        margin-top: -150px;
+        height: 90px;
+        width: 520px;
+        z-index: 1;
+        // display:block;
+    }
+    
     .project-element{
         
         width: 1160px;
-        height: 100vh;
+        height: 110vh;
         margin-left: auto;
         margin-right: auto;
         display: flex;
@@ -60,7 +80,7 @@
 
                 }
                 h4{
-                    @include gotham-font(30px);
+                    @include gotham-font(30px, "light");
                     line-height: 130%;
                     color: white;
                     margin: 10px 0px 0px 0px;
@@ -78,23 +98,40 @@
                 flex-direction: row;
                 justify-content: space-between;
                 h4{
-                    @include gotham-font(30px);
+                    @include gotham-font(30px, "light");
                     line-height: 130%;
                     color: white;
                     margin: 0px;
                     text-align: left;
                 }
             }
+            .project-functionality-list{
+                display: flex;
+                flex-direction: column;
+                margin-top: 30px;
+                height: 0px;
+                overflow: hidden;
+                transition: 0.2s;
+                p{
+                    @include codan-font(14px);
+                    font-family: 'Codan Light';
+                    line-height: 140%;
+                    color: #FFFFFF;
+                    margin-left: 30px;
+                    margin-top: 0px;
+                    margin-bottom: 21.8px; 
+                }
+            }
         }
         .project-image{
-            height: 616px;
-            width: 802px;
+            height: 571px;
+            width: 722px;
             margin-left: 100px;
             margin-right: -200px;
         }
         .project-image-left{
-            height: 616px;
-            width: 802px;
+            height: 571px;
+            width: 852px;
             margin-left: -100px;
             margin-right: 160px;
         }
@@ -102,7 +139,49 @@
     
 }
 
+.open-link-to-project{
+    margin-top: -30vh;
+    display: flex;
+    justify-content: center;
+    margin-left: -100px;
+    text-decoration: none;
+    img{
+        transition: 1s;
+        height: 150px;
+        &:hover{
+            transform: rotate(10deg);
+        }
+    }
+    p{
+        color: white;
+        @include codan-font(16px, 'medium');
+        letter-spacing: 0.25em;
+        text-transform: uppercase;
+        margin-top: 85px;
+    }
+}
+
+.show-more-button{
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 100px;
+    padding-top: 20px;
+
+    p{
+        color: white;
+        @include codan-font(16px, 'medium');
+        letter-spacing: 0.25em;
+        text-transform: uppercase;
+        margin-top: 85px;
+        text-align: center;
+    }
+}
+
 @media  (max-width: 500px){
+    // .open-link-to-project{
+    //     display: none !important;
+    // }
     .projects-section {
         width: 100vw; 
         .projects-title-container{
@@ -114,7 +193,7 @@
             justify-content: center;
             h3{
                 width: 92vw;
-                @include gotham-font(45px);
+                @include gotham-font(45px, "light");
                 line-height: 95%;
                 /* or 85px */
                 text-align: left;
@@ -128,7 +207,7 @@
         }
         .project-element{
             width: 100vw;
-            height: 100vh;
+            height: 140vh;
             overflow-x: hidden;
             margin-left: auto;
             margin-right: auto;
@@ -150,7 +229,7 @@
                     display: flex;
                     flex-direction: column;
                     justify-content: left;
-                    p{
+                    p {
                         color: white;
                         font-family: "Mulish";
                         font-weight: 400;
@@ -161,8 +240,8 @@
                         width: 100vw;
     
                     }
-                    h4{
-                        @include gotham-font(20px);
+                    h4 {
+                        @include gotham-font(20px, "light");
                         line-height: 130%;
                         color: white;
                         margin: 10px 0px 0px 0px;
